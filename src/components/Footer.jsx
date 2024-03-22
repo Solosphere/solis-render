@@ -34,13 +34,13 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-row">
                 <div className="logo-information">
-                    <h2><NavLink to='/solis/'>SOLISPHERE</NavLink></h2>
+                    <h2><NavLink to='/'>SOLISPHERE</NavLink></h2>
                 </div>
 
                 <div className="navigation-links">
                     <ul>
-                        <li><NavLink to='/solis/about'>About</NavLink></li>
-                        <li><NavLink to='/solis/gallery'>Gallery</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/gallery'>Gallery</NavLink></li>
                         
                     {/* Add more links as needed */}
                     </ul>

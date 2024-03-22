@@ -33,7 +33,7 @@ const [loading, setLoading] = useState(true);
       <section className="about-row-1">
         <section className="introduction">
         <h2>THE FACE</h2>
-        <img src="/solis/images/portrait.JPG" alt="desc"/>
+        <img src="/images/portrait.JPG" alt="desc"/>
         <p>
           Hey, I'm Daniel Nelson, an artist whose creative journey traverses the realms of fine arts, graphic design, and software engineering. With a foundation nurtured at the Parsons School of Art & Design and honed during the Software Engineering Fellowship at The Marcy Lab School, my approach seamlessly bridges aesthetics and functionality that portrays the beauty found in introspection, navigating the complexities of morality, existence, and the pursuit of personal wholeness.
         </p>
@@ -96,25 +96,25 @@ const [loading, setLoading] = useState(true);
         <div className='image-with-description-container'>
         <div className="image-with-description-v1">
         <a href="https://second-wind-udn3.onrender.com/landing" target="_blank">
-        <img src="/solis/images/secondwind.jpg" alt="desc"/>
+        <img src="/images/secondwind.jpg" alt="desc"/>
         <p>
         Second Wind, a full stack online community-based platform that provide resources, support, and employment for those impacted by the criminal justice system.   </p>
         </a>
         </div>
         <div className="image-with-description-v1">
         <a href="https://careerassess.mysites.io/?page_id=2" target="_blank">
-        <img src="/solis/images/careerspring.jpg" alt="desc"/>
+        <img src="/images/careerspring.jpg" alt="desc"/>
         <p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths. 
         </p>
         </a>
         </div>
         <div className="image-with-description-v1">
-        <img src="/solis/images/SAP.JPG" alt="desc"/>
+        <img src="/images/SAP.JPG" alt="desc"/>
         <p className="image-text-3"> SAP (FORTHESOUL), represents a convergence of 3D modeling with AutoCAD, incorporating components such as a PIR motion sensor, DFPlayer, SD card, jumper wires, and Arduino Uno. Within the intricate model, the sculpture delivers a spoken narrative drawn from a fusion of written words by Jean-Paul Sartre, Albert Camus, and my own alterations through text-to-speech software.
         </p>
         </div>
         <div className="image-with-description-v1">
-        <img src="/solis/images/metvoyager.jpg" alt="desc" className="metvid" />
+        <img src="/images/metvoyager.jpg" alt="desc" className="metvid" />
         <p className="image-text-4">METVoyager is a web platform I developed that leverages the MET API to deliver artwork recommendations based on search functionality or by selecting specific categories to generate art that matches. The platform also allows users to save and revisit favorite artworks in their own personal gallery.</p>
         </div>
         </div>
@@ -132,7 +132,7 @@ const [loading, setLoading] = useState(true);
         <div className="upcoming-projects-column-2">
         <div className="image-with-description" id="chrome-container" >
       <video autoPlay muted width="auto" loop playsInline controls={false}>
-            <source src='/solis/videos/heartinchrome.mp4' type="video/mp4" />
+            <source src='/videos/heartinchrome.mp4' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
       <div className='chrome-text'>
@@ -146,11 +146,11 @@ const [loading, setLoading] = useState(true);
     </div>
     <div className="tattoo-mini-gallery">
       <div className='image-column-1'>
-      <img src = {`/solis/images/${tattooImages[0]}`} alt= {"tat-0"} />
+      <img src = {`/images/${tattooImages[0]}`} alt= {"tat-0"} />
       </div>
       <div className='image-column-2'>
-      <img src = {`/solis/images/${tattooImages[4]}`} alt= {"tat-4"} />
-      <img src = {`/solis/images/${tattooImages[3]}`} alt= {"tat-3"} />
+      <img src = {`/images/${tattooImages[4]}`} alt= {"tat-4"} />
+      <img src = {`/images/${tattooImages[3]}`} alt= {"tat-3"} />
       </div>  
     </div>
     </div>
@@ -161,7 +161,7 @@ const [loading, setLoading] = useState(true);
       <section className="contact-container">
         <div className='contact-img'>
           <video className="contact-image" autoPlay muted width="auto" loop playsInline controls={false}>
-            <source src='/solis/videos/skull.mp4' type="video/mp4" />
+            <source src='/videos/skull.mp4' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
       </div>

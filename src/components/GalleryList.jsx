@@ -61,7 +61,7 @@ const GalleryList = () => {
     setCurrentPage(pageNumber); 
     const newParams = new URLSearchParams(window.location.search);
     newParams.set('page', pageNumber);
-    navigate(`?${newParams.toString()}`);
+    navigate(`/gallery?${newParams.toString()}`);
 
   };
 
@@ -69,7 +69,7 @@ const GalleryList = () => {
     setCurrentPage(1);
     const newParams = new URLSearchParams(window.location.search);
     newParams.set('page', '1');
-    navigate(`?${newParams.toString()}`);
+    navigate(`/gallery?${newParams.toString()}`);
     
   };
 
@@ -78,7 +78,7 @@ const GalleryList = () => {
     // Update URL parameters based on the new sort
   const newParams = new URLSearchParams(window.location.search);
   newParams.set('page', '1');
-  navigate(`?${newParams.toString()}`);
+  navigate(`/gallery?${newParams.toString()}`);
   };
 
   const handleSearchChange = (newSearchTerm) => {
@@ -87,7 +87,7 @@ const GalleryList = () => {
     // Update URL parameter based on the new search term
   const newParams = new URLSearchParams(window.location.search);
   newParams.set('page', '1');
-  navigate(`?${newParams.toString()}`);
+  navigate(`/gallery?${newParams.toString()}`);
   }
   
   

@@ -175,7 +175,7 @@ const GalleryItemDetails = () => {
   const handleGoBack = () => {
     // const productIndex = products.findIndex((p) => p.id === parseInt(id, 10));
     // const targetPage = Math.ceil((productIndex + 1) / itemsPerPage);
-    navigate(`/solis/gallery?page=${page}`);
+    navigate(`/gallery?page=${page}`);
     console.log("pageNumber from galleryitem:", page); 
     // console.log("targetPage:", targetPage);
   };
@@ -211,12 +211,12 @@ const GalleryItemDetails = () => {
                 width="500"
                 playsInline
                 controls
-                src={"/solis" + product.image[currentImageIndex]}
+                src={product.image[currentImageIndex]}
               >
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img src={"/solis" + product.image[currentImageIndex]} alt={product.name} />
+              <img src={product.image[currentImageIndex]} alt={product.name} />
             )}
             
                  {product.image.length > 1 && (
@@ -229,11 +229,11 @@ const GalleryItemDetails = () => {
                 >
                   {image.includes('/videos/') ? (
                     <video playsInline controls={false}>
-                      <source src={"/solis" + image} type="video/mp4" />
+                      <source src={image} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   ) : (
-                    <img src={"/solis" + image} alt={`${product.name} - Thumbnail ${index}`} />
+                    <img src={ image} alt={`${product.name} - Thumbnail ${index}`} />
                   )}
                 </div>
               ))}

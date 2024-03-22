@@ -28,7 +28,7 @@ return (
   <div className='home-container'>
   <div className="video-container">
     <video className="landingpage-image" autoPlay muted width="100%" height="100%" loop playsInline controls={false}>
-      <source src='/solis/videos/intro.mp4' type="video/mp4" />
+      <source src='/videos/intro.mp4' type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
@@ -45,7 +45,7 @@ return (
     </div>
     <div className="mini-gallery">
       <div className="mini-gallery-img">
-      <img src = {`images/${images[currentImageIndex]}`} alt= {`Artwork ${currentImageIndex + 1}`} />
+      <img src = {`/images/${images[currentImageIndex]}`} alt= {`Artwork ${currentImageIndex + 1}`} />
       </div>
       <div className="featured-art-icon-row">
       <FontAwesomeIcon icon={faCircleChevronLeft} onClick={handlePrevImage} className="prev" />
@@ -62,10 +62,10 @@ return (
     <p> Welcome to SOLISPHERE, a unique space curated by artist Daniel Nelson. Explore a diverse range of creations, from websites to paintings, embodying existential themes that navigate the dance between absurdism, nihilism, and existentialism. Nelson's work illuminates the transformative journey through darkness, portraying beauty in introspection and embracing the depth of the human experience. </p>
     <div className="home-button-row">
     <button className="home-about-button"> 
-    <Link to="/solis/about" className="home-about-link">Learn More</Link> 
+    <Link to="/about" className="home-about-link">Learn More</Link> 
     </button>
     <button className="explore-gallery-button"> 
-      <Link to='/solis/gallery?page=1' className="explore-gallery-link">Explore Gallery</Link>
+      <Link to='/gallery?page=1' className="explore-gallery-link">Explore Gallery</Link>
     </button>
     
     </div>
