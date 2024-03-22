@@ -9,12 +9,13 @@ const tattooImages = ["tat-1.jpg", "tat-2.jpg", "tat-3.jpg", "tat-4.jpg", "tat-5
 const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        
         window.scrollTo(0, 0);
 
         // Simulate a delay for loading
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
 
     // Cleanup the timeout to avoid potential memory leaks
     return () => clearTimeout(delay);
@@ -22,7 +23,10 @@ const [loading, setLoading] = useState(true);
 
 
   return (
+
+    
     <div className="about-container">
+      
       <header className="about-header">
         <h1>ABOUT SOLISPHERE</h1>
         <section className="about-caption">

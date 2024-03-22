@@ -48,7 +48,7 @@ export default function App() {
     setLoading(true);
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 2000);
 
     // Cleanup the timeout to avoid potential memory leaks
     return () => clearTimeout(delay);
