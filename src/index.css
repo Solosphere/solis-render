@@ -2926,11 +2926,11 @@ select {
     position: relative;
     background: black;
     border-radius: 10px;
-    overflow:hidden;
+    overflow: clip;
   }
   
   .video-container {
-    position: relative;
+    position: none;
   }
   
   .landingpage-image {
@@ -4152,6 +4152,7 @@ select {
     text-align: center;
     display: flex;
     flex-direction: column;
+    overflow: clip;
   }
   
   .home-row {
@@ -4164,11 +4165,11 @@ select {
     position: relative;
     background: black;
     border-radius: 10px;
-    overflow:hidden;
+    
   }
   
   .video-container {
-    position: relative;
+    position: none;
   }
   
   .landingpage-image {
