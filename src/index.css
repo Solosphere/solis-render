@@ -2922,7 +2922,7 @@ select {
   }
   
   .home-container {
-    position: relative;
+    position: none;
     background: black;
     border-radius: 10px;
   }
@@ -3011,14 +3011,14 @@ select {
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-left: 20.5%;
-    margin-right: 0%;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 9.5%;
   }
   
   .featured-art-icon-row .prev{
     font-size: 3.5vh;
-    padding-right: 71%;
+    padding-right: 121%;
     padding-left: 0%;
     margin: 0;
     transition: transform 0.3s ease-in-out;
@@ -3026,6 +3026,7 @@ select {
   .featured-art-icon-row .next {
     font-size: 3.5vh;
     padding-left: 0%;
+    padding-right:0%;
     margin: 0;
     transition: transform 0.3s ease-in-out;
   }
@@ -3885,7 +3886,7 @@ select {
     margin: auto;
     width: 100%;
     padding: 0; 
-    padding-right: 2%;
+    padding-right: 0%;
   }
   
   .footer-row:nth-child(2) {
@@ -4254,15 +4255,32 @@ select {
     position: absolute;
    display: flex;
    justify-content: center;
-   width: 110%;
+   max-width: 100%;
+   margin-left: 0%;
+   margin-right: 0%;
   }
   
-  .featured-art-icon-row .prev,
+  /* .featured-art-icon-row .prev,
   .featured-art-icon-row .next {
     font-size: 3vh;
     padding: 5% 30%;
     transition: transform 0.3s ease-in-out;
   
+  } */
+
+  .featured-art-icon-row .prev{
+    font-size: 3vh;
+    padding-right: 112%;
+    padding-left: 1.75%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  .featured-art-icon-row .next {
+    font-size: 3.5vh;
+    padding-left: 0%;
+    padding-right:0%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
   }
   
   .featured-art-icon-row .prev:hover,
