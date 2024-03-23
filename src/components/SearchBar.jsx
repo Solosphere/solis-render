@@ -8,7 +8,7 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
                     type="text"
                     value={searchTerm}
                     className="search-bar-input"
-                    placeholder="Search "
+                    placeholder="Search by title"
                     onChange={(e) => setSearchTerm(e.target.value)}
                 
                    />

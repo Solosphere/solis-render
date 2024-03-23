@@ -3368,8 +3368,6 @@ select {
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
   }
-
-
   
   .image-text-2{
     color: black !important;
@@ -4002,7 +4000,7 @@ select {
     background-blend-mode:screen;
     background-size: 100%;  
     background-color:rgb(105, 105, 105);
-    width: 100%;
+    max-width: 100%;
   }
   
   input, label {
@@ -4021,7 +4019,7 @@ select {
   }
   
   #logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
@@ -4203,7 +4201,6 @@ select {
   
   .featured-art-content {
     border-top: 2px white solid;
-    padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4219,11 +4216,12 @@ select {
   
   .featured-work-title{
       display: flex;
-      max-width: 3vh;
+      max-width: 6%;
       background-color: black;
       align-items: center;
       padding: 0 2vh;
       margin: 0.5vh;
+      margin-left: 2%;
       border-radius: 90px;
       
     }
@@ -4239,7 +4237,7 @@ select {
   
   
   .featured-art-content .mini-gallery{
-    width: 90%;
+    max-width: 100%;
     display: flex;
     margin: 0% 3vh;
     align-items: center;
@@ -4248,7 +4246,7 @@ select {
   
   
   .featured-art-content .mini-gallery img{
-    max-width: 200px;
+    max-width: 90%;
     height: auto;
     border-radius: 8px; 
   }
@@ -4296,7 +4294,7 @@ select {
   
   .detailed-bio p {
     margin-top: 0;
-    font-size: 1.5vh;
+    font-size: 2vh;
     text-align: center;
     padding: 0 1vh;
     padding-bottom: 2vh;
@@ -4366,8 +4364,8 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
-    font-size: .7vh; /* Adjust the font size */
-    width: 90%; /* Adjust the width as needed */
+    font-size: .8vh; /* Adjust the font size */
+    width: 75%; /* Adjust the width as needed */
   }
   
   
@@ -4444,7 +4442,7 @@ select {
   }
   
   .artistic-philosophy p{
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
   
   .skills-container {
@@ -4494,7 +4492,7 @@ select {
   
   .skill-category p {
     width: auto 10%;
-    font-size: 1.3vh;
+    font-size: 1.6vh;
     margin: .5%;
     background-color: black;
     color: white;
@@ -4548,7 +4546,7 @@ select {
   }
   
   .beyond-column p{
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
   
   .beyond-the-canvas-image-container {
@@ -4638,6 +4636,7 @@ select {
 
   .upcoming-projects-text-section{
     padding: 25% 1%;
+    text-align: center;
   }
   
   .upcoming-projects-column-2{
@@ -4668,7 +4667,7 @@ select {
   
   .chrome-text p,
   .tattoo-text p{
-    font-size: 1.2vh;
+    font-size: 2vh;
   }
   
   
@@ -4751,6 +4750,7 @@ select {
     justify-content: center;
     margin: auto;
     text-align: center;
+    padding-right: 0%;
     color: white;
   }
   
@@ -4759,13 +4759,13 @@ select {
   }
 
   .contact-information-container p{
-    font-size: 1.5vh;
+    font-size: 1.8vh;
   }
   
   .contact-information-container a{
     text-decoration: none;
     color: white;
-    font-size: 1.5vh;
+    font-size: 1.8vh;
   }
   
   .contact-img {
@@ -5132,11 +5132,11 @@ select {
   .logo-information {
     width: 25%;
     padding-left: 1vh;
-    font-size: 1.7vh;
+    font-size: 1.5vh;
   }
   
   .navigation-links {
-    width: 100%; 
+    width: 55%; 
   }
   
   .navigation-links ul {
