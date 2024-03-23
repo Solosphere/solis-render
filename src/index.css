@@ -6,7 +6,7 @@ body {
     linear-gradient(rgba(61, 66, 66, 0.189), transparent),
     linear-gradient(to top left, rgb(39, 39, 39), transparent),
     linear-gradient(to top right, rgb(155, 155, 155), transparent);
-  background-blend-mode:screen;
+  background-blend-mode: screen;
   background-size: 100%;  
   background-color:rgb(105, 105, 105);
   max-width: 100%;
@@ -94,7 +94,7 @@ nav .right {
 
 .main-menu li {
   display: inline-block;
-  margin-right: 20px; /* Adjust spacing between menu items */
+  margin-right: 20px; 
 }
 
 button {
@@ -104,16 +104,15 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; 
 }
 
 button:hover {
-  background-color: #F05941;
+  background-color: #F05941; 
 }
 
 button:active {
   background-color: #F05941;
-
 }
 
 video::-webkit-media-controls-start-playback-button,
@@ -171,7 +170,6 @@ video::-webkit-media-controls-play-button {
   text-align: right;
   margin: 0;
 }
-
 
 .featured-art-content {
   border-top: 2px white solid;
@@ -2757,11 +2755,13 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode:screen;
+    background-blend-mode: screen;
     background-size: 100%;  
     background-color:rgb(105, 105, 105);
     max-width: 100%;
   }
+
+  
   
   input, label {
     display: block;
@@ -2779,7 +2779,7 @@ select {
   }
   
   #logo {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
@@ -2875,7 +2875,6 @@ select {
 /* Adjust positioning of dropdown content */
 .main-menu li {
     padding: 2%;
-
 }
 
 /* Style for links inside the dropdown */
@@ -2935,8 +2934,8 @@ select {
   }
   
   .landingpage-image {
-    max-width: 40vh;
-    height: 40vh;
+    max-width: 46vh;
+    height: 46vh;
     z-index: 1;
   }
   
@@ -2951,12 +2950,12 @@ select {
   
   .landingpage-title {
     justify-content: start;
-    font-size: 6vh;
+    font-size: 6.75vh;
     margin: 0;
   }
   
   .tagline {
-    font-size: 2.5vh;
+    font-size: 2.65vh;
     text-align: right;
     margin: 0;
   }
@@ -2973,16 +2972,19 @@ select {
 }
   
   .featured-work-title{
-    max-width: 50%;
+    max-width: 11%;
+    padding: 0;
+    margin: 0;
     background-color: black;
     border-radius: 90px;
-    padding-top: 10%;
+    margin-left: 2%;
   }
   
   .rotate-text {
     font-size: 3vh;
     writing-mode: vertical-lr; /* Rotate text vertically from left to right */
     color: white; 
+    margin-left: 30%;
   }
   
   .featured-art-content .mini-gallery{
@@ -2990,6 +2992,7 @@ select {
     max-width: 100%;
     align-items: center;
     justify-content: center;
+    margin-left: 7%;
   }
   
   .featured-art-content .mini-gallery-img{
@@ -2997,24 +3000,35 @@ select {
     max-width: 100%;
     height: auto;
     border-radius: 8px; 
+    margin-right: 2%;
+   
   }
 
   .featured-art-content .mini-gallery-img img{
-    max-width: 85%;
+    max-width: 90%;
+    
   }
   
   .featured-art-icon-row{
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 95%;
-    margin-right: 10%;
+    width: 100%;
+    margin-left: 20.5%;
+    margin-right: 0%;
   }
   
-  .featured-art-icon-row .prev,
+  .featured-art-icon-row .prev{
+    font-size: 3.5vh;
+    padding-right: 71%;
+    padding-left: 0%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+  }
   .featured-art-icon-row .next {
     font-size: 3.5vh;
-    padding: 5% 30%;
+    padding-left: 0%;
+    margin: 0;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -3275,7 +3289,9 @@ select {
     max-width: 100%;
     margin: auto;
     margin-bottom: 2%;
+    margin-right: 2%;
     border-radius: 1px;
+    padding-right: 0%;
   }
   
   .about-row-2 h2 {
@@ -3380,7 +3396,7 @@ select {
   }
 
   .upcoming-projects-text-section{
-    padding: 25% 1%;
+    padding: 13% 1%;
     text-align:center;
   }
   
@@ -3395,6 +3411,10 @@ select {
     font-size: 1.7vh;
     text-align:center;
   }
+
+  .upcoming-projects-text-section{
+    padding-left:0;
+  }
   
   .upcoming-projects-text-section h2{
     font-size: 3.5vh;
@@ -3402,7 +3422,7 @@ select {
   }
 
   #chrome-container{
-    max-width: 95% ;
+    max-width: 90%;
     height: 100% ;
   }
   
@@ -3454,7 +3474,8 @@ select {
   #tats{
     display:flex;
     align-items: center;
-    max-width: 100%;
+    max-width: 95%;
+    height: 100%;
   }
   
   .tattoo-text {
@@ -3499,6 +3520,7 @@ select {
     margin: auto;
     text-align: center;
     color: white;
+    padding-right: 0%;
   }
   
   .contact-information-container h2{
@@ -3877,13 +3899,13 @@ select {
   }
   
   .logo-information {
-    width: 15%;
+    width: 25%;
     padding-left: 1vh;
     font-size: 1.5vh;
   }
   
   .navigation-links {
-    width: 100%; 
+    width: 55%; 
   }
   
   .navigation-links ul {
@@ -3908,7 +3930,7 @@ select {
     display: flex;
     flex-direction:column;
     font-size: 1vh;
-    width: 30%;
+    width: 25%;
     transition: transform 0.3s ease-in-out;
   }
   
