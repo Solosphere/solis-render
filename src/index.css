@@ -2912,7 +2912,6 @@ select {
     text-align: center;
     display: flex;
     flex-direction: column;
-    overflow: clip;
     max-width: 100%;
   }
   
@@ -2926,7 +2925,6 @@ select {
     position: relative;
     background: black;
     border-radius: 10px;
-    overflow: clip;
   }
   
   .video-container {
