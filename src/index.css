@@ -3018,7 +3018,7 @@ select {
   
   .featured-art-icon-row .prev{
     font-size: 3.5vh;
-    padding-right: 121%;
+    padding-right: 120%;
     padding-left: 0%;
     margin: 0;
     transition: transform 0.3s ease-in-out;
@@ -4269,7 +4269,7 @@ select {
   } */
 
   .featured-art-icon-row .prev{
-    font-size: 3vh;
+    font-size: 3.5vh;
     padding-right: 112%;
     padding-left: 1.75%;
     margin: 0;
@@ -4327,7 +4327,7 @@ select {
   }
   
   .explore-gallery-button,.home-about-button{
-    padding: 1vh ;
+    padding: 1vh;
     
   }
   
