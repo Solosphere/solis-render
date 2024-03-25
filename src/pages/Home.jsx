@@ -59,7 +59,8 @@ return (
             <section className="rect-2"></section>
             </section>
     <h2>THE VISION</h2>
-    <p> Welcome to SOLISPHERE, a unique space curated by artist Daniel Nelson. Explore a diverse range of creations, from websites to paintings, embodying existential themes that navigate the dance between absurdism, nihilism, and existentialism. Nelson's work illuminates the transformative journey through darkness, portraying beauty in introspection and embracing the depth of the human experience. </p>
+    <p>Enter the realm of SOLISPHERE, a digital haven curated by artist Daniel Nelson. Fusing software engineering, art, and design, I've programmed this space to showcase a diverse array of my creations, from websites to paintings. Each piece delves into existential themes—absurdism, nihilism, and existentialism—exploring their interplay.   
+ </p>
     <div className="home-button-row">
     <button className="home-about-button"> 
     <Link to="/about" className="home-about-link">Learn More</Link> 

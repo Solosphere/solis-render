@@ -2252,7 +2252,7 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
-    font-size: 1.5vh; /* Adjust the font size */
+    font-size: 2vh; /* Adjust the font size */
     width: 70%; /* Adjust the width as needed */
   }
   
@@ -3064,10 +3064,10 @@ select {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3); 
     font-size: 2.5vh;
 }
@@ -3107,7 +3107,9 @@ select {
 
 /* Change link color on hover */
 .main-menu li a:hover {
-    color: #F05941;
+    color:#F05941;
+    font-weight: bold;
+    opacity: 1;
 }
 
   
@@ -3127,8 +3129,8 @@ select {
   
   button:active {
     background-color: #F05941;
-  
   }
+
   /* HomePage.css */
   .home-page {
     text-align: center;
@@ -3257,14 +3259,14 @@ select {
   .detailed-bio {
     max-width: 100%;
     display: flex;
-    margin: 1vh 0;
+    margin: 1vh 3vh;
     flex-direction: column;
   }
   
   .rect-home-container{
     display:flex;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
     
   }
   
@@ -3345,7 +3347,7 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
-    font-size: 1vh; /* Adjust the font size */
+    font-size: 1.25vh; /* Adjust the font size */
     width: 70%; /* Adjust the width as needed */
   }
   
@@ -3391,10 +3393,11 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 5% 5%;
-    background: rgba(255, 255, 255, 0.019);
+    /* background: rgba(255, 255, 255, 0.019);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+    background-color:#F05941;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -3578,10 +3581,8 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 2%;
-    background: rgba(0, 0, 0, 0.019);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
+    background-color: #F05941;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -3592,7 +3593,11 @@ select {
   }
   
   .image-text-2{
-    color: black !important;
+    color: white !important;
+  }
+
+  .image-text-3{
+    color: white !important;
   }
   
   
@@ -3704,7 +3709,7 @@ select {
   }
   
   .tattoo-text p{
-    color: black;
+    color: white;
   }
   
   
@@ -4307,10 +4312,10 @@ select {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
+    background: black;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3); 
     font-size: 2.5vh;
 }
@@ -4352,6 +4357,7 @@ select {
 /* Change link color on hover */
 .main-menu li a:hover {
     color: #F05941;
+    font-weight: bold;
 }
 
   
@@ -4608,8 +4614,8 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
-    font-size: .8vh; /* Adjust the font size */
-    width: 75%; /* Adjust the width as needed */
+    font-size:1vh; /* Adjust the font size */
+    width: 90%; /* Adjust the width as needed */
   }
   
   
@@ -4654,10 +4660,10 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 5% 5%;
-    background: rgba(255, 255, 255, 0.019);
+    background: #F05941;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -4840,10 +4846,10 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 2%;
-    background: rgba(0, 0, 0, 0.019);
+    background: #F05941;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -4855,7 +4861,12 @@ select {
 
 
   .image-text-2{
-    color: black !important;
+    color: white !important;
+  }
+
+  
+  .image-text-3{
+    color: white !important;
   }
   
   
@@ -4959,7 +4970,7 @@ select {
   }
   
   .tattoo-text p{
-    color: black;
+    color: white;
   }
   
   

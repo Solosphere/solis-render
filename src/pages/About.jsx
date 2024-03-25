@@ -30,13 +30,13 @@ const [loading, setLoading] = useState(true);
       <header className="about-header">
         <h1>ABOUT SOLISPHERE</h1>
         <section className="about-caption">
-        <p>SOLISPHERE is more than a gallery; it's a curated space that transcends artistic boundaries. It's a digital sanctuary and a source of light for individuals seeking a fresh start and meaningful connections through art and technology.</p>
+        <p>Beyond a gallery, it's a curated digital sanctuary merging art and technology, illuminating the path to personal wholeness and growth.</p>
         </section>
       </header>
 
       <section className="about-row-1">
         <section className="introduction">
-        <h2>THE FACE</h2>
+        <h2>THE CREATIVE</h2>
         <img src="/images/portrait.JPG" alt="desc"/>
         <p>
           Hey, I'm Daniel Nelson, an artist whose creative journey traverses the realms of fine arts, graphic design, and software engineering. With a foundation nurtured at the Parsons School of Art & Design and honed during the Software Engineering Fellowship at The Marcy Lab School, my approach seamlessly bridges aesthetics and functionality that portrays the beauty found in introspection, navigating the complexities of morality, existence, and the pursuit of personal wholeness.
@@ -48,11 +48,11 @@ const [loading, setLoading] = useState(true);
             <section className="rect-2"></section>
             </section>
         <section className="artistic-philosophy">
-        <h2>Creative Philosophy</h2>
+        <h2>THE PHILOSOPHY</h2>
         <p>
-        Embodied in the philosophy of the 'solo,' SOLISPHERE beckons as a beacon of introspection and illumination. Each piece within the collection unravels the intricacies of the human experience, drawing inspiration from luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi. This artistic exploration transcends philosophical concepts, intertwining with personal experiences and cultural influences. Every creation mirrors a profound journey through the absurd, celebrating individualism, and harnessing the transformative power inherent in personal narratives.
+        Within SOLISPHERE, I aim to shed light on the transformative journey towards personal wholeness, capturing the beauty of introspection and embracing the profound depth of the human experience. Drawing inspiration from philosophical luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi, each creation unravels the complexities of the human experience. This journey through the absurd, celebrating individualism and embracing transformative narratives, transcends philosophical concepts, resonating with personal experiences and cultural influences.
         </p>
-        <p>Utilizing a palette of diverse mediums and innovative techniques, my creations range from immersive websites to poignant multimedia paintings and drawings. The fusion of fine arts, graphic design, and technology, exemplified in projects like SAP (FORTHESOUL), 2022, underscores my unwavering commitment to pushing the boundaries of creative expression. SOLISPHERE, in its essence, aspires to resonate with you on a personal level, sparking introspection and inviting exploration along the transformative path through darkness. Your unique interpretation and engagement with my work breathe life and depth into its meaning.        </p> 
+        <p>Spanning immersive websites to evocative multimedia paintings and drawings, my creations merge fine arts, graphic design, and technology. Projects like SAP (FORTHESOUL), 2022, exemplify my commitment to pushing creative boundaries. SOLISPHERE aims to connect with you on a profound level, sparking introspection and inviting you to delve into the depth into its meaning. Each piece serves as a portal into existential themes—absurdism, nihilism, and existentialism—inviting you to contemplate the depth of the human experience and infuse its meaning with your unique interpretation and engagement.    </p> 
         
         
         <section className="skills-container">
