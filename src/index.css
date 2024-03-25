@@ -4067,7 +4067,7 @@ select {
   body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin: 0;
-    overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
+    overflow-x: clip;
     background:
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
@@ -5325,6 +5325,20 @@ select {
 
 @media only screen and (min-width: 350px) and (max-width: 410px) {
   /* Mobile-specific styles */
+  body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+    overflow-x: clip;
+    background:
+      linear-gradient(rgba(61, 66, 66, 0.189), transparent),
+      linear-gradient(to top left, rgb(39, 39, 39), transparent),
+      linear-gradient(to top right, rgb(155, 155, 155), transparent);
+    background-blend-mode: color-dodge;
+    background-size: 100%;  
+    background-color:rgb(117, 116, 116) !important;
+    max-width: 100%;
+  }
+
   .about-caption p{
     font-size: 1.29vh;
     width: 73%;
@@ -5333,102 +5347,3 @@ select {
 
 
 
-/*Specifc mods*/
- /* @media only screen and (min-width: 748px) and (max-width: 790px) {
-  .featured-art-icon-row{
-    width: 104%;
-  } 
-  
-}
-
-@media only screen and (min-width: 790px) and (max-width: 830px) {
-  .featured-art-icon-row{
-    width: 98%;
-  }
-  
-}
-
-@media only screen and (min-width: 830px) and (max-width: 885px) {
-  .featured-art-icon-row{
-    width: 94%;
-  }
-  
-}
-
-@media only screen and (min-width: 885px) and (max-width: 946px) {
-  .featured-art-icon-row{
-    width:88%;
-  }
-  
-}
-
-@media only screen and (min-width: 946px) and (max-width: 1000px) {
-  .featured-art-icon-row{
-    width: 82%;
-  }
-  
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1055px) {
-  .featured-art-icon-row{
-    width: 78%;
-  }
-  
-}
-
-@media only screen and (min-width: 1055px) and (max-width: 1055px) {
-  .featured-art-icon-row{
-    width: 73%;
-  }
-}
-
-@media only screen and (min-width: 1056px) and (max-width: 1112px) {
-  .featured-art-icon-row{
-    width: 73%;
-  }
-}
-
-@media only screen and (min-width: 1113px) and (max-width: 1160px) {
-  .featured-art-icon-row{
-    width: 70%;
-  }
-}
-
-@media only screen and (min-width: 1160px) and (max-width: 1200px) {
-  .featured-art-icon-row{
-    width: 66%;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1266px) {
-  .featured-art-icon-row{
-    width: 64%;
-  }
-}
-
-@media only screen and (min-width: 1266px) and (max-width: 1350px) {
-  .featured-art-icon-row{
-    width: 60%;
-  }
-}
-
-@media only screen and (min-width: 1350px) and (max-width: 1400px) {
-  .featured-art-icon-row{
-    width: 57%;
-  }
-}
-
-@media only screen and (min-width: 1400px) and (max-width: 1452px) {
-  .featured-art-icon-row{
-    width: 57%;
-  }
-}
-
-@media only screen and (min-width: 1452px) and (max-width: 1485px) {
-  .featured-art-icon-row{
-    width: 55%;
-  }
-}
-
-
- */
