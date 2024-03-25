@@ -59,7 +59,7 @@ return (
             <section className="rect-2"></section>
             </section>
     <h2>THE VISION</h2>
-    <p>Enter the realm of SOLISPHERE, a digital haven curated by artist Daniel Nelson. Fusing software engineering, art, and design, I've programmed this space to showcase a diverse array of my creations, from websites to paintings. Each piece delves into existential themes—absurdism, nihilism, and existentialism—exploring their interplay.   
+    <p>Enter the realm of SOLISPHERE, a digital haven curated by artist Daniel Nelson. Fusing software engineering, art, and design, I've programmed this space to showcase a diverse array of my creations, from websites to paintings. Each piece delves into existential themes—absurdism, nihilism, and existentialism— inviting you to explore the intricate interplay of human experience.   
  </p>
     <div className="home-button-row">
     <button className="home-about-button"> 
