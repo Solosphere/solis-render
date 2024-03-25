@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
@@ -73,6 +75,14 @@ nav {
 nav a {
   display: block;
   color: #FFF;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  display: block;
+  color: black;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -121,175 +131,6 @@ video::-webkit-media-controls-play-button {
 }
 
 /* HomePage.css */
-/* .home-page {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.home-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-container {
-  position: relative;
-  background: black;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.video-container {
-  position: relative;
-}
-
-.landingpage-image {
-  width: 100%;
-  height: 650px;
-  z-index: 1;
-}
-
-.content {
-  position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: white;
-  z-index: 2;
-}
-
-.landingpage-title {
-  justify-content: start;
-  font-size: 5em;
-  margin: 0;
-}
-
-.tagline {
-  font-size: 2em;
-  text-align: right;
-  margin: 0;
-}
-
-.featured-art-content {
-  border-top: 2px white solid;
-  padding-top:2%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 5%; 
-}
-
-.featured-art-container{
-  max-width: 60%;
-  display: flex;
-  border-radius: 90px;
-}
-
-.featured-work-title{
-    display: flex;
-    background-color: black;
-    align-items: center;
-    padding: 10% 0;
-    margin-left: 5%;
-    border-radius: 90px;  
-  }
-  
-.rotate-text {
-  font-size: 2em;
-  max-width: 50%;
-  writing-mode: vertical-lr; 
-  transform: rotate(-180deg); 
-  color: white;
-
-}
-
-
-.featured-art-content .mini-gallery{
-  display: flex;
-  max-width: 100%;
-  margin-left: 13%;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.featured-art-content .mini-gallery img{
-  max-width: 530px;
-  height: auto;
-  border-radius: 8px; 
-}
-
-.featured-art-icon-row{
-  position: absolute;
- display: flex;
- justify-content: center;
- width: 60%;
-}
-
-.featured-art-icon-row .prev,
-.featured-art-icon-row .next {
-  font-size: 3em;
-  padding: 5% 30%;
-  transition: transform 0.3s ease-in-out;
-
-}
-
-.featured-art-icon-row .prev:hover,
-.featured-art-icon-row .next:hover{
-  opacity:.7;
-}
-
-.detailed-bio {
-  max-width: 45%;
-  display: flex;
-  flex-direction: column;
-}
-
-.rect-home-container{
-  display:flex;
-  max-width: 85%;
-  
-}
-
-.detailed-bio h2 {
-  font-size:2em;
-  text-align: left;
-  
-}
-
-.detailed-bio p {
-  margin-top: 0;
-  font-size: 20px;
-  text-align: left;
-  padding-right: 10%;
-  padding-bottom: 5%;
- 
-}
-
-.home-button-row{
-  display:flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 100%;
-  margin-right: 10%;
-
-}
-
-.explore-gallery-button,.home-about-button{
-  padding: 2% 5%;
-  font-size: 18px;
-  margin: 0 5%;
-}
-
-.explore-gallery-link,
-.home-shop-link, .home-about-link{
-  text-decoration: none;
-  color: white;
-  font-size: 24px;
-} */
-
 .home-page {
   text-align: center;
   display: flex;
@@ -420,7 +261,6 @@ video::-webkit-media-controls-play-button {
 .rect-home-container{
   display:flex;
   max-width: 85%;
-  
 }
 
 .detailed-bio h2 {
@@ -731,6 +571,7 @@ video::-webkit-media-controls-play-button {
   text-align: center;
   transition: opacity 0.3s ease-in-out;
 }
+
 
 .image-text-2{
   color: white;
@@ -2978,9 +2819,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode: screen;
+    background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color:rgb(105, 105, 105);
+    background-color: rgb(114, 114, 114);
     max-width: 100%;
   }
 
@@ -3187,6 +3028,7 @@ select {
     border-top: 2px white solid;
     display: flex;
     flex-direction: column;
+    margin-top: 3%;
   }
 
   .featured-art-container{
@@ -3296,7 +3138,7 @@ select {
   }
   
   .explore-gallery-button,.home-about-button{
-    padding: 2vh;
+    padding: 1.5vh;
     
   }
   
@@ -3477,7 +3319,7 @@ select {
   
   .skill-category p {
     width: auto 10%;
-    font-size: 1.52vh;
+    font-size: 1.85vh;
     margin: .5%;
     background-color: black;
     color: white;
@@ -3684,7 +3526,7 @@ select {
   
   .image-column-1{
     display: flex;
-    width: 100%;
+    width: 50%;
     height: 100%;
     margin: auto 0;
   }
@@ -3693,14 +3535,16 @@ select {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
-    margin-left:1%;
+    width: 50%;
+    margin-left:.5%;
   }
 
   #tats{
     display:flex;
     align-items: center;
-    max-width: 95%;
+    max-width: 100%;
+    padding:0;
+    margin-left: 0;
     height: 100%;
   }
   
@@ -4229,9 +4073,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode:screen;
+    background-blend-mode:color-dodge;
     background-size: 100%;  
-    background-color:rgb(105, 105, 105);
+    background-color:rgb(105,105,105);
     max-width: 100%;
   }
   
@@ -4251,7 +4095,7 @@ select {
   }
   
   #logo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
@@ -4288,7 +4132,7 @@ select {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 0 2%;
+    margin: 0%;
   }
   
   nav a {
@@ -4456,9 +4300,8 @@ select {
       padding: 0 2vh;
       margin: 0.5vh;
       margin-left: 2%;
-      border-radius: 90px;
-      
-    }
+      border-radius: 90px;  
+  }
     
   .rotate-text {
     font-size: 3vh;
@@ -4466,7 +4309,6 @@ select {
     writing-mode: vertical-lr; /* Rotate text vertically from left to right */
     transform: rotate(-180deg); /* Additional rotation for browser compatibility */
     color: white; /* Adjust the color as needed */
-  
   }
   
   
@@ -4487,11 +4329,11 @@ select {
   
   .featured-art-icon-row{
     position: absolute;
-   display: flex;
-   justify-content: center;
-   max-width: 100%;
-   margin-left: 0%;
-   margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   
   /* .featured-art-icon-row .prev,
@@ -4545,7 +4387,7 @@ select {
   
   .detailed-bio p {
     margin-top: 0;
-    font-size: 2vh;
+    font-size: 2.25vh;
     text-align: center;
     padding: 0 1vh;
     padding-bottom: 2vh;
@@ -4569,7 +4411,7 @@ select {
    .home-about-link{
     text-decoration: none;
     color: white;
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
   
   /* About Page css*/
@@ -4687,13 +4529,13 @@ select {
   }
   
   .artistic-philosophy h2{
-    font-size: 3vh;
+    font-size: 3.5vh;
     margin: 0;
     text-align: left;
   }
   
   .artistic-philosophy p{
-    font-size: 2vh;
+    font-size: 2.25vh;
   }
   
   .skills-container {
@@ -4715,13 +4557,13 @@ select {
   }
   
   .skills-header h2 {
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: center;
     margin: 0
   }
   
   .skills-header p{
-    font-size: 1vh;
+    font-size: 2vh;
     margin: 0;
     color:#F05941;
   }
@@ -4743,7 +4585,7 @@ select {
   
   .skill-category p {
     width: auto 10%;
-    font-size: 1.6vh;
+    font-size: 2vh;
     margin: .5%;
     background-color: black;
     color: white;
@@ -4785,7 +4627,7 @@ select {
   }
   
   .about-row-2 h2 {
-    font-size: 3vh;
+    font-size: 3.5vh;
     margin: 0;
   }
   
@@ -4797,7 +4639,7 @@ select {
   }
   
   .beyond-column p{
-    font-size: 2vh;
+    font-size: 2.25vh;
   }
   
   .beyond-the-canvas-image-container {
@@ -4854,7 +4696,7 @@ select {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
-    font-size: 1.4vh;
+    font-size: 1.5vh;
     text-align: center;
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
@@ -5011,17 +4853,18 @@ select {
   }
   
   .contact-information-container h2{
-    margin: 1% 0;;
+    margin: 1% 0;
+    font-size: 3.5vh;
   }
 
   .contact-information-container p{
-    font-size: 1.8vh;
+    font-size: 2vh;
   }
   
   .contact-information-container a{
     text-decoration: none;
     color: white;
-    font-size: 1.8vh;
+    font-size: 2vh;
   }
   
   .contact-img {
@@ -5053,7 +4896,7 @@ select {
   .gallery-title {
     display:flex;
     align-items: center;
-    font-size: 3vh;
+    font-size: 3.5vh;
     height: 30px;
     color: white;
     background-color: black;
@@ -5075,7 +4918,7 @@ select {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border: none;
-    font-size: 1.5vh;
+    font-size: 2vh;
     margin: auto 0;
     padding: 2%;
     
@@ -5116,7 +4959,7 @@ select {
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3); 
-    font-size: 1.7vh;
+    font-size: 2vh;
   }
   
   .sort-button {
@@ -5133,7 +4976,7 @@ select {
   
   .sort-options {
     max-width: 100%;
-    font-size: 1.7vh;
+    font-size: 2vh;
     margin-left: 0%;
     margin-right: 0%;
     padding: 10px;
@@ -5148,7 +4991,7 @@ select {
   select {
     border-radius: 8px;
     margin-left: 2%;
-    font-size: 1.7vh;
+    font-size: 2vh;
     
   } 
   
@@ -5480,6 +5323,14 @@ select {
   
 }
 
+
+@media only screen and (min-width: 350px) and (max-width: 410px) {
+  /* Mobile-specific styles */
+  .about-caption p{
+    font-size: 1.29vh;
+    width: 73%;
+  }
+}
 
 
 
