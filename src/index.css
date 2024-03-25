@@ -462,27 +462,29 @@ video::-webkit-media-controls-play-button {
 
 /* About Page css*/
 .about-header{
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .about-header h1{
   font-size: 3em;
-  width: 50%;
+  width: 40%;
   color: white;
   margin-right: 5%;
   margin-left: -8%;
   background-color: black;
   padding: 2%;
-  padding-left: 8%;
+  padding-left: 11%;
   border-radius: 60px;
-  
 }
 
 .about-caption {
-  margin-right: -20%;
+  margin-right: -1%;
   border: 2px solid white;
   border-radius: 60px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
 }
 
 .about-header p{
@@ -534,10 +536,10 @@ video::-webkit-media-controls-play-button {
   transform: translate(-50%, -50%);
   opacity: 0;
   padding: 5% 2%;
-  background: rgba(255, 255, 255, 0.019);
+  background:#F05941;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   color: white;
@@ -703,7 +705,6 @@ video::-webkit-media-controls-play-button {
 .image-with-description img, 
 .image-with-description-v1 img {
   max-width: 100%;
-  
   max-height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -719,24 +720,24 @@ video::-webkit-media-controls-play-button {
   transform: translate(-50%, -50%);
   opacity: 0;
   padding: 2%;
-  background: rgba(0, 0, 0, 0.019);
+  background:#F05941;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px); */
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   transition: opacity 0.3s ease-in-out;
 }
 
 .image-text-2{
-  color: black !important;
+  color: white;
 }
 
 .image-text-3{
-  color: #F05941 !important;
+  color: white;
 }
 
 .image-with-description:hover p,
@@ -821,7 +822,7 @@ video::-webkit-media-controls-play-button {
 }
 
 .tattoo-text p{
-  color: black;
+  color: white;
   padding: 10% 2%;
   width: 75%;
 }
@@ -1564,10 +1565,10 @@ select {
   transform: translate(-50%, -50%);
   opacity: 0;
   padding: 5%; 
-  background: rgba(255, 255, 255, 0.019);
+  background:#F05941;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   color: white;
@@ -1693,18 +1694,19 @@ select {
   transition: transform 0.3s ease-in-out;
 }
 
-.image-with-description p {
+.image-with-description p,
+.image-with-description-v1 p {
   position: absolute;
-  width: 95%;
+  width: 90%;
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   padding: 2%;
-  background: rgba(0, 0, 0, 0.019);
+  background: #F05941;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px); */
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   color: white;
@@ -1714,7 +1716,7 @@ select {
 }
 
 .image-text-2{
-  color: black !important;
+  color: white !important;
 }
 
 
@@ -1732,15 +1734,19 @@ select {
   max-width: 100%;
   margin: auto;
   padding: 2% 0;
+  text-align: center;
 }
 
 .upcoming-projects p {
   font-size: 18px;
+  margin: 0;
+  margin-left: 2%;
+  padding-left: 1%;
 }
 
 .upcoming-projects-text-section h2{
   font-size: 2em;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 
 .chrome-text{
@@ -1795,7 +1801,7 @@ select {
 }
 
 .tattoo-text p{
-  color: black;
+  color: white;
 }
 
 
@@ -2299,10 +2305,10 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 5% 5%;
-    background: rgba(255, 255, 255, 0.019);
+    background:#F05941;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -2468,10 +2474,10 @@ select {
     transform: translate(-50%, -50%);
     opacity: 0;
     padding: 2%;
-    background: rgba(0, 0, 0, 0.019);
+    background:#F05941;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
@@ -2480,11 +2486,6 @@ select {
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
   }
-
-  .image-text-2{
-    color: black !important;
-  }
-  
   
   .image-with-description:hover p,
   .image-with-description-v1:hover p{
@@ -2588,7 +2589,7 @@ select {
   }
   
   .tattoo-text p{
-    color: black;
+    color: white;
   }
   
   

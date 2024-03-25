@@ -99,22 +99,21 @@ const [loading, setLoading] = useState(true);
         </div>
         <div className='image-with-description-container'>
         <div className="image-with-description-v1">
-        <a href="https://second-wind-udn3.onrender.com/landing" target="_blank">
+        
         <img src="/images/secondwind.jpg" alt="desc"/>
         <p>
         Second Wind, a full stack online community-based platform that provide resources, support, and employment for those impacted by the criminal justice system.   </p>
-        </a>
         </div>
         <div className="image-with-description-v1">
-        <a href="https://careerassess.mysites.io/?page_id=2" target="_blank">
+        
         <img src="/images/careerspring.jpg" alt="desc"/>
         <p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths. 
         </p>
-        </a>
+      
         </div>
         <div className="image-with-description-v1">
         <img src="/images/SAP.JPG" alt="desc"/>
-        <p className="image-text-3"> SAP (FORTHESOUL), represents a convergence of 3D modeling with AutoCAD, incorporating components such as a PIR motion sensor, DFPlayer, SD card, jumper wires, and Arduino Uno. Within the intricate model, the sculpture delivers a spoken narrative drawn from a fusion of written words by Jean-Paul Sartre, Albert Camus, and my own alterations through text-to-speech software.
+        <p className="image-text-3">SAP (FORTHESOUL), represents a convergence of 3D modeling with AutoCAD, incorporating components such as a PIR motion sensor, DFPlayer, SD card, jumper wires, and Arduino Uno. Within the intricate model, the sculpture delivers a spoken narrative drawn from a fusion of written words by Jean-Paul Sartre, Albert Camus, and my own alterations through text-to-speech software.
         </p>
         </div>
         <div className="image-with-description-v1">
