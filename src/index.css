@@ -2821,7 +2821,7 @@ select {
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
     background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(100, 100, 100);
     max-width: 100%;
   }
 
@@ -4073,9 +4073,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode:color-dodge;
+    background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color:rgb(105,105,105);
+    background-color:rgb(119, 119, 119);
     max-width: 100%;
   }
   
