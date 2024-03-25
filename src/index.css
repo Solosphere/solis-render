@@ -121,6 +121,175 @@ video::-webkit-media-controls-play-button {
 }
 
 /* HomePage.css */
+/* .home-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  position: relative;
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+}
+
+.landingpage-image {
+  width: 100%;
+  height: 650px;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  z-index: 2;
+}
+
+.landingpage-title {
+  justify-content: start;
+  font-size: 5em;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 2em;
+  text-align: right;
+  margin: 0;
+}
+
+.featured-art-content {
+  border-top: 2px white solid;
+  padding-top:2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%; 
+}
+
+.featured-art-container{
+  max-width: 60%;
+  display: flex;
+  border-radius: 90px;
+}
+
+.featured-work-title{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding: 10% 0;
+    margin-left: 5%;
+    border-radius: 90px;  
+  }
+  
+.rotate-text {
+  font-size: 2em;
+  max-width: 50%;
+  writing-mode: vertical-lr; 
+  transform: rotate(-180deg); 
+  color: white;
+
+}
+
+
+.featured-art-content .mini-gallery{
+  display: flex;
+  max-width: 100%;
+  margin-left: 13%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.featured-art-content .mini-gallery img{
+  max-width: 530px;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.featured-art-icon-row{
+  position: absolute;
+ display: flex;
+ justify-content: center;
+ width: 60%;
+}
+
+.featured-art-icon-row .prev,
+.featured-art-icon-row .next {
+  font-size: 3em;
+  padding: 5% 30%;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.featured-art-icon-row .prev:hover,
+.featured-art-icon-row .next:hover{
+  opacity:.7;
+}
+
+.detailed-bio {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rect-home-container{
+  display:flex;
+  max-width: 85%;
+  
+}
+
+.detailed-bio h2 {
+  font-size:2em;
+  text-align: left;
+  
+}
+
+.detailed-bio p {
+  margin-top: 0;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 10%;
+  padding-bottom: 5%;
+ 
+}
+
+.home-button-row{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
+  margin-right: 10%;
+
+}
+
+.explore-gallery-button,.home-about-button{
+  padding: 2% 5%;
+  font-size: 18px;
+  margin: 0 5%;
+}
+
+.explore-gallery-link,
+.home-shop-link, .home-about-link{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+} */
+
 .home-page {
   text-align: center;
   display: flex;
@@ -319,7 +488,7 @@ video::-webkit-media-controls-play-button {
 .about-header p{
   font-size:.8em;
   color: white;
-  margin-right:27% !important;
+  margin-right:5%;
   padding: 2%;
   padding-left: 5%;
 }
@@ -1071,6 +1240,7 @@ select {
 .footer-row:first-child {
   margin: auto;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .footer-row:nth-child(2) {
@@ -1081,11 +1251,11 @@ select {
 
 .logo-information {
   width: 25%;
-  padding-left: 2%;
+  padding-left: 1.5%;
 }
 
 .navigation-links {
-  width: 100%; 
+  width: 50%; 
 }
 
 .navigation-links ul {
@@ -1107,6 +1277,8 @@ select {
   align-items: center;
   justify-content: center;
   width: 25%;
+  font-size: 2vh;
+  margin-right: 2%;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -1176,7 +1348,7 @@ select {
     background-color:rgb(105, 105, 105);
   }
 
-  .home-page {
+   .home-page {
     text-align: center;
     flex-direction: column;
   }
@@ -1184,63 +1356,88 @@ select {
   .featured-art-content {
     border-top: 2px white solid;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    position: relative;
   }
 
   .featured-art-container{
-    max-width: 100%;
+    margin: 0%;
 }
   
   .featured-work-title{
-    max-width: 50%;
+    max-width: 10%;
     background-color: black;
     border-radius: 90px;
-    padding-top: 10%;
-    margin-left: -10%;
+    padding: 0%;
+    margin-left: 2%;
   }
   
   .rotate-text {
     font-size: 2em;
-    writing-mode: vertical-lr; /* Rotate text vertically from left to right */
+    writing-mode: vertical-lr; 
     color: white; 
+    margin-left: 40%;
   }
   
-  .mini-gallery{
+  .featured-art-container .mini-gallery{
     display: flex;
+    flex-direction: column;
     max-width: 100%;
-
+    margin-left: 3%;
+    
   }
   
-  .mini-gallery-img{
+  .featured-art-container .mini-gallery-img{
     display: flex;
     max-width: 100%;
     height: auto;
     border-radius: 8px; 
+    margin-left: 0%;
   }
 
-  .mini-gallery-img img{
-    max-width: 50%;
-    width: 450px;
+  .featured-art-container .mini-gallery-img img{
+    width: 100%;
+    min-width: 380px;
+    max-width: 750px;
   }
   
   .featured-art-icon-row{
-    width: 92%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    bottom: 1%; /* Adjust as needed */
+    
   }
   
-  .featured-art-icon-row .prev,
+  .featured-art-icon-row .prev{
+    font-size: 5vh;
+    padding-right: 50%;
+    padding-left: 0%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
   .featured-art-icon-row .next {
-    font-size: 3em;
+    font-size: 5vh;
+    padding-left: 0%;
+    padding-right:0%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
   }
   
   .detailed-bio {
     margin-top: 5%;
     padding-top: 2%;
-    padding: 2% 10%;
+    margin: 0 ;
+    margin-left: .5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
-    border-top: 2px white solid;
+    max-width: 60%;
+    border-top: none;
   }
 
   .detailed-bio h2{
@@ -1291,7 +1488,9 @@ select {
     text-decoration: none;
     color: white;
     font-size: 20px;
-  }
+  } 
+  
+
 
   /* About Page css*/
 .about-header{
@@ -1404,10 +1603,8 @@ select {
 }
 
 .skill-category p{
- font-size: 1em;
+ font-size: 17px;
 }
-
-
 
 .rect-container{
   display: flex;
@@ -1432,6 +1629,17 @@ select {
   margin-right: -30%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.about-caption{
+  margin-right: 0%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  
+}
+
+.about-header p{
+ padding-right: 0%;
 }
 
 .about-row-2{
@@ -1597,7 +1805,6 @@ select {
   height: auto;
   object-fit: contain;
   border-radius: 10px;
- 
 }
 
 .contact-container{
@@ -1890,16 +2097,19 @@ select {
 }
   
   .featured-work-title{
-    max-width: 50%;
+    max-width: 11%;
+    padding: 0;
+    margin: 0;
     background-color: black;
     border-radius: 90px;
-    padding-top: 10%;
+    margin-left: 2%;
   }
   
   .rotate-text {
     font-size: 5vh;
     writing-mode: vertical-lr; /* Rotate text vertically from left to right */
     color: white; 
+    margin-left: 30%;
   }
   
   .featured-art-content .mini-gallery{
@@ -1907,6 +2117,7 @@ select {
     max-width: 100%;
     align-items: center;
     justify-content: center;
+    margin-right: 1%;
 
   }
   
@@ -1925,14 +2136,25 @@ select {
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 95%;
-    margin-right: 10%;
+    width: 85%;
+    margin-left: 0%;
+    margin-right: 11%;
   }
   
-  .featured-art-icon-row .prev,
+
+  .featured-art-icon-row .prev{
+    font-size: 5vh;
+    padding-right: 76%;
+    padding-left: 0%;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
   .featured-art-icon-row .next {
     font-size: 5vh;
-    padding: 5% 30%;
+    padding-left: 0%;
+    padding-right:0%;
+    margin: 0;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -3023,6 +3245,7 @@ select {
     margin: 0;
     transition: transform 0.3s ease-in-out;
   }
+
   .featured-art-icon-row .next {
     font-size: 3.5vh;
     padding-left: 0%;
@@ -3034,7 +3257,7 @@ select {
   .detailed-bio {
     max-width: 100%;
     display: flex;
-    margin-bottom: 2vh;
+    margin: 1vh 0;
     flex-direction: column;
   }
   
@@ -3070,7 +3293,7 @@ select {
   }
   
   .explore-gallery-button,.home-about-button{
-    padding: 1vh;
+    padding: 2vh;
     
   }
   
@@ -3437,7 +3660,7 @@ select {
   .upcoming-projects .image-with-description video{
     width: 100%;
     height:100%;
-    padding: 1%;
+    padding: 0%;
     background-color: black !important;
     border-radius: 10px !important;
   }
@@ -3744,6 +3967,10 @@ select {
     align-items: center;
   }
   
+  .view{
+    margin: 2% 0;
+  }
+
   .back-button {
     max-width: 25%;
     padding: 2%;
@@ -3791,9 +4018,9 @@ select {
   
   .image-section {  
     max-width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
   }
   
   .image-section img, .image-section video {
@@ -4291,7 +4518,7 @@ select {
   .detailed-bio {
     max-width: 100%;
     display: flex;
-    margin-bottom: 2vh;
+    margin: 1vh 0;
     flex-direction: column;
   }
   
@@ -4327,12 +4554,12 @@ select {
   }
   
   .explore-gallery-button,.home-about-button{
-    padding: 1vh;
+    padding: 2vh;
     
   }
   
   .explore-gallery-link,
-  .home-shop-link, .home-about-link{
+   .home-about-link{
     text-decoration: none;
     color: white;
     font-size: 2vh;
@@ -4691,7 +4918,7 @@ select {
   .upcoming-projects .image-with-description video{
     width: 100%;
     height:100%;
-    padding: 1%;
+    padding: 0%;
     background-color: black !important;
     border-radius: 10px !important;
   }
@@ -4994,6 +5221,10 @@ select {
     justify-content: space-between;
     align-items: center;
   }
+
+  .view{
+    margin: 2% 0;
+  }
   
   .back-button {
     max-width: 35%;
@@ -5241,7 +5472,7 @@ select {
 
 
 /*Specifc mods*/
-@media only screen and (min-width: 748px) and (max-width: 790px) {
+ /* @media only screen and (min-width: 748px) and (max-width: 790px) {
   .featured-art-icon-row{
     width: 104%;
   } 
@@ -5338,4 +5569,4 @@ select {
 }
 
 
-
+ */
