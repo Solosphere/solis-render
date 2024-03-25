@@ -156,7 +156,7 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-image {
   width: 100%;
-  height: 650px;
+  height: 750px;
   z-index: 1;
 }
 
@@ -171,12 +171,12 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-title {
   justify-content: start;
-  font-size: 5em;
+  font-size: 6.5em;
   margin: 0;
 }
 
 .tagline {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: right;
   margin: 0;
 }
@@ -188,7 +188,7 @@ video::-webkit-media-controls-play-button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5%; 
+  margin-top: 2%; 
 }
 
 .featured-art-container{
@@ -2821,7 +2821,7 @@ select {
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
     background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(96, 96, 96);
     max-width: 100%;
   }
 
@@ -4073,9 +4073,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode: color-dodge;
+    background-blend-mode: hue;
     background-size: 100%;  
-    background-color:rgb(119, 119, 119);
+    background-color:rgb(162, 162, 162);
     max-width: 100%;
   }
   
@@ -4250,8 +4250,8 @@ select {
   }
   
   .landingpage-image {
-    max-width: 40vh;
-    height: 40vh;
+    max-width: 50vh;
+    height: 50vh;
     z-index: 1;
   }
   
@@ -4266,7 +4266,7 @@ select {
   
   .landingpage-title {
     justify-content: start;
-    font-size: 5vh;
+    font-size: 6.5vh;
     margin: 0;
   }
   
