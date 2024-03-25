@@ -4064,7 +4064,6 @@ select {
 
 /*smaller mobile website*/
 @media only screen and (min-width: 320px) and (max-width: 410px) {
-  /* Mobile-specific styles */
   body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin: 0;
@@ -4073,9 +4072,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top left, rgb(39, 39, 39), transparent),
       linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode: hue;
+    background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color:rgb(162, 162, 162);
+    background-color:rgb(117, 116, 116) !important;
     max-width: 100%;
   }
   
