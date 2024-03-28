@@ -20,7 +20,7 @@ const products = [
       image: ['/images/nihilist.jpg', '/images/nihilist-1.jpg', '/images/nihilistwarm.jpg'],
       media: 'Graphite, acrylic, marker on paper, digital collage',
       dimensions: "24x18in",
-      description: 'This captivating artwork portrays a dichotomy of selves, with the elder positioned in a taxi\'s front seat and the younger self in the back, illustrating the poignant tension between mortal physicality and intellectual aspirations. The older self, a symbol of the earthly constraints, confronts the youthful self wielding a silencer, embodying the ceaseless pursuit of transcending worldly limits. As the aged visage signifies the inherent boundaries of our existence, the younger self becomes a symbol of the relentless quest for enlightenment, showcasing the perpetual struggle to overcome the limitations of the physical realm and embrace the boundless realm of intellectual exploration.',
+      description: 'This piece portrays a dichotomy of selves, with the elder positioned in a taxi\'s front seat and the younger self in the back, illustrating the poignant tension between mortal physicality and intellectual aspirations. The older self, a symbol of the earthly constraints, confronts the youthful self wielding a silencer, embodying the ceaseless pursuit of transcending worldly limits. As the aged visage signifies the inherent boundaries of our existence, the younger self becomes a symbol of the relentless quest for enlightenment, showcasing the perpetual struggle to overcome the limitations of the physical realm and embrace the boundless realm of intellectual exploration.',
     },
     
     {
@@ -125,7 +125,7 @@ const products = [
         collection: '',
         price: 50,
         image: ['/images/bill.jpg'],
-        media: 'Collage on paper, digital',
+        media: 'Collage on paper, digital editing',
         dimensions: '8.5x11in',
         description: '',
       },
@@ -137,7 +137,7 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/cloak.jpg'],
-        media: 'Collage on paper, digital',
+        media: 'Collage on paper, digital editing',
         dimensions: '8.5x11in',
         description: '',
       },
@@ -223,7 +223,7 @@ const products = [
         image: ['/images/glitter.jpg', '/images/glitter-1.jpg', '/images/glitter-2.jpg', '/images/glitter-3.jpg', '/images/glitter-4.JPG'],
         media: 'Acrylic, oil on canvas, digital',
         dimensions: "18x24in",
-        description: 'The series of artworks unfolds a nuanced exploration of the artist\'s relationship with art, deepening as one progresses through the swiped images. The initial painting symbolizes a surface-level connection, where art is depicted as a captivating figure that collaboratively engages and educates the artist about various facets of life. However, as the digital distortions intensify with each swipe, the perception of this relationship transforms, culminating in a visually evocative "bad trip," highlighting the complex and unpredictable nature inherent in any artist-art relationship.',
+        description: 'The series of artworks unfolds a nuanced exploration of my relationship with art, deepening as one progresses through the swiped images. The initial painting symbolizes a surface-level connection, where art is depicted as a captivating figure that collaboratively engages and educates me about various facets of life. However, as the digital distortions intensify with each swipe, the perception of this relationship transforms, culminating in a visually evocative "bad trip," highlighting the complex and unpredictable nature inherent in any artist-art relationship.',
       },
 
       {
@@ -235,7 +235,7 @@ const products = [
         image: ['/images/infinitum.jpg'],
         media: 'Charcoal, marker, and acrylic on canvas',
         dimensions: "8x11in",
-        description: 'In this mixed media piece, the artist explores the enigma of existence, shaping the figure with a line and geometric forms to convey a sense of hollowness and ambiguity. Mirrored shapes symbolize the dualities and intersections of life, prompting reflection on the uncertainties surrounding identity. By incorporating textures that evoke the vastness of space, the artwork delves into the unknown aspects of both ourselves and the universe, culminating in a thought-provoking representation of a subconscious holding a gun – a poignant inquiry into the fate of consciousness after death and the profound question of our finiteness.',
+        description: 'In this mixed media piece, I explore the enigma of existence, shaping the figure with a line and geometric forms to convey a sense of hollowness and ambiguity. Mirrored shapes symbolize the dualities and intersections of life, prompting reflection on the uncertainties surrounding identity. By incorporating textures that evoke the vastness of space, the artwork delves into the unknown aspects of both ourselves and the universe, culminating in a thought-provoking representation of a subconscious holding a gun – a poignant inquiry into the fate of consciousness after death and the profound question of our finiteness.',
       },
 
       {
@@ -247,7 +247,7 @@ const products = [
         image: ['/images/anti.jpg'],
         media: 'photography and digital print',
         dimensions: '8.5x11in',
-        description: 'In "Anti," created in 2019 through the medium of photography and digital print with dimensions of 8.5x11 inches, the artist captures a poignant narrative surrounding substance abuse. The spilled pills serve as a visual metaphor for the scattered consequences of addiction, while the overlaid image of a bloody sink intensifies the raw and visceral impact, addressing the physical toll and personal struggle associated with substance misuse. This piece prompts reflection on the destructive nature of substance abuse and fosters a dialogue on the urgent need for empathy and support in combating this pervasive issue.',
+        description: 'In "Anti," created in 2019 through the medium of photography and digital print with dimensions of 8.5x11 inches, I captured a poignant narrative surrounding substance abuse. The spilled pills serve as a visual metaphor for the scattered consequences of addiction, while the overlaid image of a bloody sink intensifies the raw and visceral impact, addressing the physical toll and personal struggle associated with substance misuse. This piece prompts reflection on the destructive nature of substance abuse and fosters a dialogue on the urgent need for empathy and support in combating this pervasive issue.',
       },
 
       {
@@ -269,7 +269,7 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/exit.JPG'],
-        media: 'photography and digital print',
+        media: 'Photography and digital print',
         dimensions: '8.5x11in',
         description: '',
       },
@@ -281,7 +281,7 @@ const products = [
         collection: 'Seul',
         price: 1000,
         image: ['/images/seul-2.JPG'],
-        media: 'photography and digital print',
+        media: 'Photography and digital editing',
         dimensions: '18x24in',
         description: '',
       },
@@ -293,9 +293,9 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/swan.JPG'],
-        media: 'Charcoal on paper, digital print',
+        media: 'Charcoal on paper, digital editing',
         dimensions: '8x8in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -305,9 +305,9 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/radio.jpg'],
-        media: 'Charcoal on paper, digital print',
+        media: 'Charcoal on paper, digital editing',
         dimensions: '8x8in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
       {
         id: 27,
@@ -316,9 +316,9 @@ const products = [
         collection: 'Seul',
         price: 1000,
         image: ['/images/seul-1.JPG'],
-        media: 'photography and digital print',
+        media: 'Photography and digital editing',
         dimensions: '36x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -328,7 +328,7 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/umbrella.jpg', '/images/complex.jpg', '/images/satflowers.jpg', '/images/foodtruck.jpg', '/images/virus.jpg', '/images/bandana.jpg', '/images/cortez.jpg'],
-        media: 'photography and digital print',
+        media: 'Photography and digital print',
         dimensions: '36x18in',
         description: 'Through simple adjustments like increasing saturation and altering contrast, I transformed ordinary photos into striking, almost graphic-like images. By capturing everyday objects with a camera, I created abstract compositions, such as a flower appearing as dynamic lines on a black backdrop. Some photos evoke the appearance of microscopic organisms, yet they solely depict flowers, showcasing a fascinating transformation from one form to another.',
       },
@@ -340,9 +340,9 @@ const products = [
         collection: '',
         price: 5000,
         image: ['/images/sacred.JPG'],
-        media: 'photography and digital print',
+        media: 'Photography and digital editing',
         dimensions: '48x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '"Sacred Heartz" explores themes of transformation and release through a collage of self-portraits juxtaposed with evocative text. Drawing from Christian symbolism such as the sacred heart and gothic imagery, alongside motifs like bullets and crows, the piece delves into the complexities of personal journeys. Through photography and digital editing, I invite viewers to contemplate the process of letting go and finding catharsis amidst the turmoil of existence.',
       },
 
       {
@@ -352,9 +352,9 @@ const products = [
         collection: '',
         price: 5000,
         image: ['/images/sub.JPG',],
-        media: 'photography and digital print',
+        media: 'photography and digital editing',
         dimensions: '36x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: 'Subterranean Voyage intricately weaves layers of self-portraits and evocative text within its digital collage, inviting viewers to embark on a journey of introspection and self-discovery. Through the use of symbolic imagery—a black-out angle bearing a sword, a gothic staircase guarded by Cerberus, and a skeleton adorned with impaled swords—the piece delves into existential themes of individualism and the pursuit of authenticity. Drawing inspiration from literary works such as Fyodor Dostoevsky\'s \'Notes from Underground,\' the artwork resonates with echoes of the underground man\'s struggle for autonomy amidst societal constraints, subtly urging viewers to confront their own paths with courage and resilience.',
       },
 
       {
@@ -364,18 +364,18 @@ const products = [
         collection: '',
         price: 5000,
         image: ['/images/chromed.JPG', '/images/chromedgreen.JPG', '/images/chromedred.JPG'],
-        media: 'photography and digital print',
-        dimensions: '36x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        media: 'Photography and digital edit',
+        dimensions: '24x24in',
+        description: 'Chromed: SUDO RM -RF" explores the fusion of human and machine, presenting a vision of cybernetic augmentation. Through photography and digital editing, I transform into a cybernetic being, embodying themes of technological integration and exploration. With text fragments like "CHROMED" and "hscking the mainframe access granted," alongside intricate code backgrounds, the piece invites viewers to ponder the intersection of humanity and technology within the digital realm',
       },
       {
         id: 32,
-        name: 'Targetted',
+        name: 'Targeted',
         date: 2021,
         collection: '',
         price: 2000,
         image: ['/images/TROUBLE1.JPG'],
-        media: 'photography and digital collage print',
+        media: 'Photography and digital collage edit',
         dimensions: '36x36in',
         description: 'An exquisite sculpture to adorn your living space.',
       },
@@ -386,7 +386,7 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/sandra25.jpg'],
-        media: 'photography and digital collage print',
+        media: 'P hotography and digital collage edit',
         dimensions: '36x36in',
         description: 'An exquisite sculpture to adorn your living space.',
       },
