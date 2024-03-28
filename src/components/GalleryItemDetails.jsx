@@ -184,7 +184,7 @@ const GalleryItemDetails = () => {
     <div className="gallery-details">
       <div className="gallery-nav">
         <button className="back-button" onClick={handleGoBack}>
-          Back to Gallery
+          Back to Archive
         </button>
       </div>
       <div className="details-container">

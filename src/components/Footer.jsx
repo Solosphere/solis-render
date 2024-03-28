@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="navigation-links">
                     <ul>
                         <li><NavLink to='/about'>About</NavLink></li>
-                        <li><NavLink to='/gallery'>Gallery</NavLink></li>
+                        <li><NavLink to='/gallery'>Archive</NavLink></li>
                         
                     {/* Add more links as needed */}
                     </ul>

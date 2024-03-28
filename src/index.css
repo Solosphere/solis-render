@@ -249,7 +249,7 @@ video::-webkit-media-controls-play-button {
 
 .featured-art-icon-row .prev:hover,
 .featured-art-icon-row .next:hover{
-  opacity:.7;
+  opacity:1;
 }
 
 .detailed-bio {
@@ -3153,15 +3153,19 @@ select {
   .about-header{
     max-width: 100%;
     margin: 0;
+    padding: 0;
+    margin-right: 1%;
   }
   
   .about-header h1{
     font-size: 3.5vh;
-    width: 80%;
+    width: 70%;
     color: white;
     margin-right: 2%;
+    margin-left: 0%;
     background-color: black;
     padding: 10%;
+    padding-left: 5%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -4991,8 +4995,6 @@ select {
     border-radius: 8px;
     margin-left: 2%;
     font-size: 2vh;
-    
-    
   } 
   
   /* Gallery.css */

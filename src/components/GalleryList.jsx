@@ -162,7 +162,7 @@ const GalleryList = () => {
     <div className="gallery-list-container">
       <div className="filter-search-row">
         <div className="gallery-search">
-        <h1 className="gallery-title">GALLERY</h1>
+        <h1 className="gallery-title"> ARCHIVE</h1>
         <SearchBar searchTerm={searchTerm} setSearchTerm={handleSearchChange} className="gallery-search-bar" />
         </div>
         <div className="filter-and-sort-row">

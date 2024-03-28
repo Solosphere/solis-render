@@ -59,14 +59,14 @@ return (
             <section className="rect-2"></section>
             </section>
     <h2>THE VISION</h2>
-    <p>Enter the realm of SOLISPHERE. Fusing software engineering, art, and design, I've programmed and curated this space to showcase a diverse array of my creations, from websites to paintings. Each piece delves into existential themes—absurdism, nihilism, and existentialism— inviting you to explore the intricate interplay of human experience.   
+    <p>Welcome to the realm of SOLISPHERE, curated and programmed by Daniel Nelson. Fusing software engineering, art, and design, I've crafted this space to showcase a diverse array of my creations, ranging from websites to paintings. Each piece delves into existential themes—absurdism, nihilism, and existentialism—inviting you to explore the intricate interplay of the human experience.   
  </p>
     <div className="home-button-row">
     <button className="home-about-button"> 
     <Link to="/about" className="home-about-link">Learn More</Link> 
     </button>
     <button className="explore-gallery-button"> 
-      <Link to='/gallery?page=1' className="explore-gallery-link">Explore Gallery</Link>
+      <Link to='/gallery?page=1' className="explore-gallery-link">Explore Archive</Link>
     </button>
     
     </div>
