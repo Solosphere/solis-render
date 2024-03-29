@@ -615,7 +615,7 @@ const products = [
         image: ['/images/lies.jpg', '/images/lies-1.JPG', '/images/lies-2.JPG', '/images/lies-3.JPG', '/images/lies-4.JPG'],
         media: 'Graphite on paper',
         dimensions: '18x24in',
-        description: '',
+        description: 'A piece part of the “Black Dog” series using the motif of the black dog to illustrate the absurdity of the loyalty of suffering in life.',
       },
 
       {
