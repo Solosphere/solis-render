@@ -366,7 +366,7 @@ const products = [
         image: ['/images/chromed.JPG', '/images/chromedgreen.JPG', '/images/chromedred.JPG'],
         media: 'Photography and digital edit',
         dimensions: '24x24in',
-        description: 'Chromed: SUDO RM -RF" explores the fusion of human and machine, presenting a vision of cybernetic augmentation. Through photography and digital editing, I transform into a cybernetic being, embodying themes of technological integration and exploration. With text fragments like "CHROMED" and "hscking the mainframe access granted," alongside intricate code backgrounds, the piece invites viewers to ponder the intersection of humanity and technology within the digital realm',
+        description: 'Chromed: SUDO RM -RF" explores the fusion of human and machine, presenting a vision of cybernetic augmentation. Through photography and digital editing, I transformed myself into a cybernetic being, embodying themes of technological integration and exploration. With text fragments like "CHROMED" and "hscking the mainframe access granted," alongside intricate code backgrounds, the piece invites viewers to ponder the intersection of humanity and technology within the digital realm',
       },
       {
         id: 32,
@@ -377,7 +377,7 @@ const products = [
         image: ['/images/TROUBLE1.JPG'],
         media: 'Photography and digital collage edit',
         dimensions: '36x36in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
       {
         id: 33,
@@ -386,9 +386,9 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/sandra25.jpg'],
-        media: 'P hotography and digital collage edit',
+        media: 'Photography and digital collage edit',
         dimensions: '36x36in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
       {
         id: 34,
@@ -397,9 +397,9 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/trippingme11.JPG'],
-        media: 'photography and digital print',
+        media: 'Photography and digital edit',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
       {
         id: 35,
@@ -408,9 +408,9 @@ const products = [
         collection: '',
         price: 2000,
         image: ['/images/soulo.jpg', '/images/soulowarm.jpg', '/images/soulored.jpg', '/images/souloyellow.jpg'],
-        media: 'photography and digital print',
+        media: 'Photography and digital edit',
         dimensions: '36x36in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -420,9 +420,9 @@ const products = [
         collection: '',
         price: 15000,
         image: ['/images/mene.jpg'],
-        media: 'Graphite and collage on paper, digital collage',
+        media: 'Graphite and collage on paper, digital collage edit',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -432,9 +432,9 @@ const products = [
         collection: '',
         price: 20000,
         image: ['/images/FAM-13.jpg', '/images/FAM-increasedcontrast3.jpg', '/images/FAM-14.JPG'],
-        media: 'Graphite and collage on paper, digital collage',
+        media: 'Graphite and collage on paper, digital collage edit',
         dimensions: '36x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -444,9 +444,9 @@ const products = [
         collection: '',
         price: 8000,
         image: ['/images/RBFWC-0.JPG', '/images/RBFWC-1.JPG', '/images/RBFWC-2.JPG', '/images/RBFWC-3.JPG', '/images/RBFWC-4.JPG', '/images/RBFWC-5.JPG', '/images/RBFWC-6.JPG', '/images/RBFWC-7.JPG', '/images/RBFWC-8.JPG'],
-        media: 'Digital collage print',
+        media: 'Digital collage edit',
         dimensions: '18x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -456,9 +456,9 @@ const products = [
         collection: '',
         price: 4000,
         image: ['/images/SOLO-02-0.JPG', '/images/SOLO-02-1.jpg', '/images/SOLO-02-2.jpg'],
-        media: 'Graphite, marker, collage on paper, Digital collage print',
+        media: 'Graphite, marker, collage on paper, digital collage edit',
         dimensions: '11x14in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -468,9 +468,9 @@ const products = [
         collection: '',
         price: 4000,
         image: ['/images/uncurated-1.JPG', '/images/uncurated-2.jpg'],
-        media: 'Digital collage print',
+        media: 'Digital collage edit',
         dimensions: '10x10in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -480,9 +480,9 @@ const products = [
         collection: '',
         price: 5000,
         image: ['/images/bruised.JPG'],
-        media: 'Digital collage print',
+        media: 'Digital collage edit',
         dimensions: '10x10in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -492,9 +492,9 @@ const products = [
         collection: '',
         price: 5000,
         image: ['/images/happy-red.JPG', '/images/happy-green.JPG' ],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '10x10in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -506,7 +506,7 @@ const products = [
         image: ['/images/newark.jpg'],
         media: 'Photography print',
         dimensions: '12x16in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -516,9 +516,9 @@ const products = [
         collection: '',
         price: 100000,
         image: ['/videos/opia.mp4','/images/opia-1.jpg', '/images/opia-2.JPG'],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '16x16in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -528,9 +528,9 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/cig-2.JPG', '/images/cig-1.JPG', '/images/cig-3.JPG', '/images/cig-4.JPG'],
-        media: 'Photography and digital print',
+        media: 'Photography and digital edit',
         dimensions: '8.5x11in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -542,7 +542,7 @@ const products = [
         image: ['/images/cubism.jpg'],
         media: 'Oil and acrylic on canvas',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       
@@ -553,9 +553,9 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/haze.jpg'],
-        media: 'Photography ',
+        media: 'Photography',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -565,9 +565,9 @@ const products = [
         collection: '',
         price: 1000,
         image: ['/images/brush.jpg'],
-        media: 'Photography ',
+        media: 'Photography',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -577,9 +577,9 @@ const products = [
         collection: '',
         price: 100000,
         image: ['/images/ill-1.jpg', '/images/ill-2.jpg', '/images/ill-3.jpg', '/images/ill-4.jpg', '/images/ill-5.jpg', '/images/ill-6.jpg', '/images/ill-7.jpg'],
-        media: 'Marker on paper ',
+        media: 'Marker on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -589,9 +589,9 @@ const products = [
         collection: '',
         price: 100,
         image: ['/images/SD.jpg'],
-        media: 'Graphite on paper ',
+        media: 'Graphite on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -601,9 +601,9 @@ const products = [
         collection: '',
         price: 100000,
         image: ['/images/false.jpg'],
-        media: 'Graphite on paper ',
+        media: 'Graphite on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -613,9 +613,9 @@ const products = [
         collection: 'Black Dog',
         price: 100000,
         image: ['/images/lies.jpg', '/images/lies-1.JPG', '/images/lies-2.JPG', '/images/lies-3.JPG', '/images/lies-4.JPG'],
-        media: 'Graphite on paper ',
+        media: 'Graphite on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -627,7 +627,7 @@ const products = [
         image: ['/images/docs.jpg'],
         media: 'Acrylic on canvas',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -639,7 +639,7 @@ const products = [
         image: ['/images/alter.jpg'],
         media: 'Acrylic and graphite on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -651,7 +651,7 @@ const products = [
         image: ['/images/g.jpg'],
         media: 'Graphite and charcoal on paper',
         dimensions: '18x24in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '"Bonds in the Finite" delves into the intricate dynamics of human relationships, portraying the overlapping complexities within the finite encounters individuals experience. Through graphite and charcoal on paper, the piece captures the essence of fleeting connections and the limited number of people one may meet in a lifetime. It invites contemplation on the depth and significance of each encounter within the vast tapestry of human interaction.',
       },
 
       {
@@ -663,7 +663,7 @@ const products = [
         image: ['/images/grin-1.JPG', '/images/grin-2.JPG', '/images/grin-3.JPG'],
         media: 'Electrical tape, resin teeth sculpture',
         dimensions: '9x8x12in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -673,9 +673,9 @@ const products = [
         collection: 'Black Dog',
         price: 50000,
         image: ['/images/nightlife2.jpg'],
-        media: 'Graphite on paper, digital',
+        media: 'Graphite on paper, digital edit',
         dimensions: '24x18in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -711,7 +711,7 @@ const products = [
         image: ['/images/metvoyager.jpg', '/images/metvoyager-1.jpg', '/images/metvoyager-2.jpg'],
         media: 'Website Development',
         dimensions: '',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: 'METVoyager is a web platform I developed that leverages the MET API, Javascript, HTML and CSS to deliver artwork recommendations based on search functionality or by selecting specific categories to generate art that matches. The platform also allows users to save and revisit favorite artworks in their own personal gallery.',
       },
 
       {
@@ -721,9 +721,9 @@ const products = [
         collection: '',
         price: 17000,
         image: ['/images/abyss-1.JPG', '/images/abyss-2.JPG', '/images/abyss-3.JPG', '/images/abyss-4.JPG' ],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '16x16in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -733,9 +733,9 @@ const products = [
         collection: '',
         price: 15000,
         image: ['/images/abyss-5.JPG'],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '16x16in',
-        description: 'An exquisite sculpture to adorn your living space.',
+        description: '',
       },
 
       {
@@ -757,9 +757,9 @@ const products = [
         collection: '',
         price: 15000,
         image: ['/images/thershold.JPG'],
-        media: 'Graphite on paper',
+        media: 'Photography and digital edit',
         dimensions: '12x12in',
-        description: 'Still life study of Apollo bust.',
+        description: '',
       },
 
       {
@@ -769,7 +769,7 @@ const products = [
         collection: '',
         price: 15000,
         image: ['/images/dipt11.jpg'],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '12x12in',
         description: 'One half of a diptych of my ambivalence to isolation.',
       },
@@ -781,7 +781,7 @@ const products = [
         collection: '',
         price: 15000,
         image: ['/images/dipt21.JPG'],
-        media: 'Digital print',
+        media: 'Digital edit',
         dimensions: '12x12in',
         description: 'One half of a diptych of my ambivalence to isolation.',
       },
@@ -795,7 +795,7 @@ const products = [
         image: ['/images/kangol.JPG', '/images/kangol-1.JPG' ],
         media: 'Wire, aluminum foil, and plaster cloth sculpture',
         dimensions: '12x12in',
-        description: 'One half of a diptych of my ambivalence to isolation',
+        description: '',
       },
 
       {
@@ -807,7 +807,7 @@ const products = [
         image: ['/images/lighter.JPG' ],
         media: 'Photography and digital print',
         dimensions: '24x19in',
-        description: 'One half of a diptych of my ambivalence to isolation',
+        description: '',
       },
 
       {
@@ -819,7 +819,7 @@ const products = [
         image: ['/images/lips.jpg' ],
         media: 'Oil on panel',
         dimensions: '14x14in',
-        description: 'One half of a diptych of my ambivalence to isolation',
+        description: 'An observational piece.',
       },
 
       {
@@ -853,7 +853,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/so-1.JPG','/images/so-2.JPG', '/images/so-2.JPG'],
-        media: 'Spray paint',
+        media: 'Spray paint on panel',
         dimensions: '24x18in',
         description: '',
       },
@@ -877,7 +877,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/whit-1.JPG','/images/whit-2.JPG', '/images/whit-3.JPG'],
-        media: 'photography and digital editting',
+        media: 'Photography and digital editing',
         dimensions: '',
         description: '',
       },
@@ -889,7 +889,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/overcast-1.JPG','/images/overcast-2.JPG', '/images/overcast-3.JPG'],
-        media: 'graphite, marker and digital editting',
+        media: 'Graphite, marker and digital editing',
         dimensions: '',
         description: '',
       },
@@ -901,7 +901,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/durag-1.JPG','/images/durag-3.JPG','/images/durag-2.JPG' , '/images/durag-4.jpg'],
-        media: 'graphite, soft pastel and digital editting',
+        media: 'Graphite, soft pastel and digital editing',
         dimensions: '8.5x11in',
         description: 'A piece that critiques the high end fashion world for consistent discrediting and misuse of black culture.',
       },
@@ -913,7 +913,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/videos/ambigious.mp4'],
-        media: 'film and video editting',
+        media: 'Film and video editting',
         dimensions: '',
         description: '',
       },
@@ -925,7 +925,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/videos/humanclub.mp4'],
-        media: 'film and video editting',
+        media: 'Film and video editting',
         dimensions: '',
         description: '',
       },
@@ -937,8 +937,8 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/sankofa.jpg'],
-        media: 'digital editting',
-        dimensions: '',
+        media: 'Digital editting',
+        dimensions: '9x9in',
         description: '',
       },
 
@@ -950,7 +950,7 @@ const products = [
         price: 250000,
         image: ['/images/gradient.jpg'],
         media: 'collage on paper',
-        dimensions: '',
+        dimensions: '12x12in',
         description: '',
       },
 
@@ -961,7 +961,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/starry.jpg'],
-        media: 'photography',
+        media: 'Photography',
         dimensions: '',
         description: '',
       },
@@ -973,7 +973,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/etre.JPG'],
-        media: 'photography',
+        media: 'Photography and digital editing',
         dimensions: '',
         description: '',
       },
@@ -985,7 +985,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/digitalflower.JPG', '/images/digitalflower-1.JPG', '/images/digitalflower-2.JPG', '/images/digitalflower-3.JPG', '/images/digitalflower-5.JPG', '/images/digitalflower-6.JPG', '/images/digitalflower-7.JPG', '/images/digitalflower-8.JPG'],
-        media: 'photography',
+        media: 'Digital editing',
         dimensions: '',
         description: '',
       },
@@ -997,7 +997,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/bk.jpg'],
-        media: 'photography',
+        media: 'Photography',
         dimensions: '',
         description: '',
       },
@@ -1009,7 +1009,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/au-1.jpg', '/images/au-1.jpg'],
-        media: 'photography',
+        media: 'Photography',
         dimensions: '',
         description: '',
       },
@@ -1021,7 +1021,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/cozi-1.JPG', '/images/cozi-2.JPG', '/images/cozi-3.JPG'],
-        media: 'digital',
+        media: 'Digital art',
         dimensions: '',
         description: '',
       },
@@ -1033,7 +1033,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/cashrules.jpg'],
-        media: 'digital',
+        media: 'Digital editing',
         dimensions: '',
         description: '',
       },
@@ -1045,7 +1045,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/nega.jpg'],
-        media: 'acrylic and oil on canvas',
+        media: 'Acrylic and oil on canvas',
         dimensions: '',
         description: '',
       },
@@ -1057,7 +1057,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/self.jpg'],
-        media: 'acrylic on canvas',
+        media: 'Acrylic on canvas',
         dimensions: '',
         description: '',
       },
@@ -1069,7 +1069,7 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/fire-1.jpg', '/images/fire-2.jpg', '/images/fire-3.jpg'],
-        media: 'digtial',
+        media: 'Digtial art',
         dimensions: '',
         description: '',
       },
@@ -1081,8 +1081,8 @@ const products = [
         collection: '',
         price: 250000,
         image: ['/images/noir-haze.JPG'],
-        media: 'acrylic on canvas',
-        dimensions: 'photography',
+        media: 'Photography',
+        dimensions: '',
         description: '',
       },
 
