@@ -4107,11 +4107,11 @@ select {
     overflow-x: clip;
     background:
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to top left, rgb(39, 39, 39), transparent),
-      linear-gradient(to top right, rgb(155, 155, 155), transparent);
+      linear-gradient(to top left, rgb(155, 155, 155), transparent),
+      linear-gradient(to top right, rgb( 39,39,39 ), transparent);
     background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color:rgb(117, 116, 116) !important;
+    background-color:rgb(149, 149, 149) !important;
     max-width: 100%;
   }
   
@@ -5378,8 +5378,8 @@ select {
     overflow-x: clip;
     background:
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to top left, rgb(39, 39, 39), transparent),
-      linear-gradient(to top right, rgb(155, 155, 155), transparent);
+      linear-gradient(to top left, rgb(155, 155, 155), transparent),
+      linear-gradient(to top right, rgb( 39,39,39 ), transparent);
     background-blend-mode: color-dodge;
     background-size: 100%;  
     background-color:rgb(117, 116, 116) !important;
