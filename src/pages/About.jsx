@@ -64,7 +64,9 @@ const [loading, setLoading] = useState(true);
       <p>Project Management</p>
       <p>UI/UX Design</p>
       <p>Agile Development</p>
-      <p>Visual Arts</p>
+      <p>Fine Arts</p>
+      <p>Adobe Photoshop</p>
+      <p>Adobe Illustrator</p>
       <p>Full-Stack Development</p>
       <p>Object-Oriented Programming</p>
       <p>Application Programming Interfaces</p>

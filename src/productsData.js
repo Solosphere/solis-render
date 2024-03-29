@@ -379,6 +379,7 @@ const products = [
         dimensions: '36x36in',
         description: '',
       },
+      
       {
         id: 33,
         name: 'Sandra',
