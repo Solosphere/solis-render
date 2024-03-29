@@ -66,7 +66,7 @@ return (
     <Link to="/about" className="home-about-link">Learn More</Link> 
     </button>
     <button className="explore-gallery-button"> 
-      <Link to='/gallery?page=1' className="explore-gallery-link">Explore Archive</Link>
+      <Link to='/archive?page=1' className="explore-gallery-link">Explore Archive</Link>
     </button>
     
     </div>
