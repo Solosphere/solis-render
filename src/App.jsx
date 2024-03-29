@@ -64,8 +64,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/gallery/:id" element={<GalleryItemDetail />} />
+            <Route path="/archive" element={<GalleryPage />} />
+            <Route path="/archive/:id" element={<GalleryItemDetail />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         )}

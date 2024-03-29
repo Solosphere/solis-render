@@ -13,7 +13,7 @@ export default function SiteHeadingAndNav() {
           <ul className="main-menu">
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/about'>About</NavLink></li>
-            <li><NavLink to='/gallery'>Archive</NavLink></li>
+            <li><NavLink to='/archive'>Archive</NavLink></li>
           </ul>
         </div>
       </nav>
