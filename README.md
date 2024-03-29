@@ -1,6 +1,6 @@
 # Solisphere - Portfolio
 
-Welcome to Solisphere, my multifaceted portfolio showcasing my work created using React, JavaScript, and CSS. Explore various projects, learn more about me, and delve into my creative journey.
+Welcome to Solisphere, my portfolio showcasing my work created using React, JavaScript, and CSS. Explore various projects, learn more about me, and delve into my creative journey.
 
 ## About
 
