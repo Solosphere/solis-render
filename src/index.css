@@ -1,16 +1,14 @@
-
-
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   overflow-x: clip !important;/* Prevents horizontal scrollbars due to large gradients */
   background:
     linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-    linear-gradient(to bottom, rgb(0, 0, 0), transparent),
-    linear-gradient(to top, rgb(169, 169, 169) 80%, transparent);
-  /* background-blend-mode: screen; */
+    linear-gradient(to bottom left, rgb(0, 0, 0), transparent),
+    linear-gradient(to top, rgb(169, 169, 169) 70%, transparent);
+   background-blend-mode: screen;
   background-size: 100%;  
-  /* background-color:rgb(105, 105, 105); */
+  background-color:rgb(104, 104, 104); 
   max-width: 100%;
 }
 
@@ -375,7 +373,7 @@ video::-webkit-media-controls-play-button {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  padding: 5% 2%;
+  padding: 2% 2%;
   background:#F05941;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   /* backdrop-filter: blur(5px);
@@ -1190,19 +1188,7 @@ select {
 
 /*desktop design*/
 @media only screen and (min-width: 748px) and (max-width: 1485px) {
-  body {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    margin: 0;
-    overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
-    background:
-      linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to top left, rgb(39, 39, 39), transparent),
-      linear-gradient(to top right, rgb(155, 155, 155), transparent);
-    background-blend-mode:screen;
-    background-size: 100%;  
-    background-color:rgb(105, 105, 105);
-  }
-
+  
    .home-page {
     text-align: center;
     flex-direction: column;
@@ -2839,10 +2825,11 @@ select {
     overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
     background:
       linear-gradient(rgba(64, 66, 66, 0.189), transparent),
-      linear-gradient(to top, rgb(200, 200, 200) 70%, transparent),
+      linear-gradient(to top, rgb(200, 200, 200) 75%, transparent),
       linear-gradient(to bottom, rgb(0, 0, 0), transparent);
     background-blend-mode: screen;
     background-size: 100%;  
+    background-color:#000000;
     max-width: 100%;
   }
 
@@ -4109,11 +4096,11 @@ select {
     overflow-x: clip;
     background:
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to top, rgb(218, 218, 218) 70%, transparent),
+      linear-gradient(to top, rgb(218, 218, 218) 75%, transparent),
       linear-gradient(to bottom, rgb(39, 39, 39) , transparent);
     background-blend-mode: screen;
     background-size: 100%;  
-    /* background-color: rgb(115, 115, 115); */
+    background-color: rgb(0, 0, 0);
     max-width: 100%;
   }
   
