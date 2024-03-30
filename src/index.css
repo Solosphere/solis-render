@@ -2843,7 +2843,7 @@ select {
       linear-gradient(to bottom, rgb(0, 0, 0), transparent);
     background-blend-mode: screen;
     background-size: 100%;  
-    background-color: none;
+    background-color: transparent;
     max-width: 100%;
   }
 
