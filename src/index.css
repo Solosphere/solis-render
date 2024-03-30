@@ -3331,6 +3331,7 @@ select {
   }
   
   .skill-category p {
+    display: flex;
     width: auto 10%;
     height: auto;
     font-size: 1.85vh;
