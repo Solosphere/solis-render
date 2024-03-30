@@ -3331,7 +3331,7 @@ select {
   
   .skill-category p {
     width: auto 10%;
-    height: auto;
+    height: 4%;
     font-size: 1.85vh;
     margin: .5%;
     background-color: black;
