@@ -379,7 +379,7 @@ const products = [
         dimensions: '36x36in',
         description: '',
       },
-      
+
       {
         id: 33,
         name: 'Sandra',
@@ -1009,7 +1009,7 @@ const products = [
         date: 2019,
         collection: '',
         price: 250000,
-        image: ['/images/au-1.jpg', '/images/au-1.jpg'],
+        image: ['/images/au-1.jpg', '/images/au-2.jpg'],
         media: 'Photography',
         dimensions: '',
         description: '',
