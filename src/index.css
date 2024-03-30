@@ -6,11 +6,11 @@ body {
   overflow-x: clip !important;/* Prevents horizontal scrollbars due to large gradients */
   background:
     linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-    linear-gradient(to top left, rgb(39, 39, 39), transparent),
-    linear-gradient(to top right, rgb(155, 155, 155), transparent);
-  background-blend-mode: screen;
+    linear-gradient(to bottom, rgb(0, 0, 0), transparent),
+    linear-gradient(to top, rgb(169, 169, 169) 80%, transparent);
+  /* background-blend-mode: screen; */
   background-size: 100%;  
-  background-color:rgb(105, 105, 105);
+  /* background-color:rgb(105, 105, 105); */
   max-width: 100%;
 }
 
@@ -81,7 +81,7 @@ nav a {
 
 nav a:hover {
   display: block;
-  color: black;
+  color: #F05941;
   font-weight: 600;
   text-decoration: none;
 }
@@ -2839,11 +2839,10 @@ select {
     overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
     background:
       linear-gradient(rgba(64, 66, 66, 0.189), transparent),
-      linear-gradient(to top, rgb(200, 200, 200) 70%, transparent),
+      linear-gradient(to top, rgb(200, 200, 200) 75%, transparent),
       linear-gradient(to bottom, rgb(0, 0, 0), transparent);
     background-blend-mode: screen;
     background-size: 100%;  
-    background-color: transparent;
     max-width: 100%;
   }
 
