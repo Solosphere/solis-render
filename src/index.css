@@ -2839,7 +2839,7 @@ select {
     overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
     background:
       linear-gradient(rgba(64, 66, 66, 0.189), transparent),
-      linear-gradient(to top, rgb(200, 200, 200) 75%, transparent),
+      linear-gradient(to top, rgb(200, 200, 200) 70%, transparent),
       linear-gradient(to bottom, rgb(0, 0, 0), transparent);
     background-blend-mode: screen;
     background-size: 100%;  
@@ -4111,9 +4111,9 @@ select {
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
       linear-gradient(to top, rgb(218, 218, 218) 70%, transparent),
       linear-gradient(to bottom, rgb(39, 39, 39) , transparent);
-    background-blend-mode: color-dodge;
+    background-blend-mode: screen;
     background-size: 100%;  
-    background-color: rgb(115, 115, 115);
+    /* background-color: rgb(115, 115, 115); */
     max-width: 100%;
   }
   
