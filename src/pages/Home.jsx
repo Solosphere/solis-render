@@ -68,7 +68,6 @@ return (
     <button className="explore-gallery-button"> 
       <Link to='/archive?page=1' className="explore-gallery-link">Explore Archive</Link>
     </button>
-    
     </div>
     </div>
   </div>

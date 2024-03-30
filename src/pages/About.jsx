@@ -69,9 +69,18 @@ const [loading, setLoading] = useState(true);
       <p>Adobe Illustrator</p>
       <p>Full-Stack Development</p>
       <p>Object-Oriented Programming</p>
+      <p>Javascript</p>
+      <p>React</p>
+      <p>SQL</p>
+      <p>Git</p>
+      <p>Node.js</p>
       <p>Application Programming Interfaces</p>
+      <p>Postgres</p>
       <p>Graphic Design</p>
+      <p>CSS</p>
+      <p>HTML</p>
       <p>Wireframing</p>
+      <p>Figma</p>
       <p>Computer-Aided Design</p>
       <p>Client Relations</p>
       <p>Problem Solving</p>
