@@ -4110,11 +4110,11 @@ select {
     overflow-x: clip;
     background:
       linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to top, rgb(158, 158, 158) 50%, transparent),
+      linear-gradient(to top, rgb(218, 218, 218) 50%, transparent),
       linear-gradient(to bottom, rgb(39, 39, 39) , transparent);
     background-blend-mode: color-dodge;
     background-size: 100%;  
-    background-color: rgb(96, 96, 96);
+    background-color: rgb(115, 115, 115);
     max-width: 100%;
   }
   
