@@ -3331,6 +3331,7 @@ select {
   
   .skill-category p {
     width: auto 10%;
+    height: auto;
     font-size: 1.85vh;
     margin: .5%;
     background-color: black;
@@ -3504,8 +3505,8 @@ select {
   }
 
   #chrome-container{
-    max-width: 90%;
-    height: 100% ;
+    max-width: 95%;
+    height: 100%;
   }
   
   .chrome-text{
@@ -3556,7 +3557,7 @@ select {
   #tats{
     display:flex;
     align-items: center;
-    max-width: 95%;
+    max-width: 100%;
     padding: 0;
     margin-left: 0;
     height: 100%;
