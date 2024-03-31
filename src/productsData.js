@@ -247,7 +247,7 @@ const products = [
         image: ['/images/anti.jpg'],
         media: 'photography and digital print',
         dimensions: '8.5x11in',
-        description: 'In "Anti," created in 2019 through the medium of photography and digital print with dimensions of 8.5x11 inches, I captured a poignant narrative surrounding substance abuse. The spilled pills serve as a visual metaphor for the scattered consequences of addiction, while the overlaid image of a bloody sink intensifies the raw and visceral impact, addressing the physical toll and personal struggle associated with substance misuse. This piece prompts reflection on the destructive nature of substance abuse and fosters a dialogue on the urgent need for empathy and support in combating this pervasive issue.',
+        description: 'In "Anti," created in 2019 through the medium of photography and digital print with dimensions of 8.5x11 inches, I captured a poignant narrative surrounding substance abuse. The spilled pills serve as a visual metaphor for the scattered consequences of addiction, while the overlaid image of a bloody sink intensifies the raw and visceral impact, addressing the physical toll and personal struggle associated with substance misuse. This piece prompts reflection on the destructive nature of substance abuse and fosters a dialogue on the urgent need for empathy and support in combating this pervasive issue. Please note that this scene is entirely fabricated, serving as a cautionary tale rather than a depiction of reality.',
       },
 
       {
@@ -354,7 +354,7 @@ const products = [
         image: ['/images/sub.JPG',],
         media: 'photography and digital editing',
         dimensions: '36x18in',
-        description: 'Subterranean Voyage intricately weaves layers of self-portraits and evocative text within its digital collage, inviting viewers to embark on a journey of introspection and self-discovery. Through the use of symbolic imagery—a black-out angle bearing a sword, a gothic staircase guarded by Cerberus, and a skeleton adorned with impaled swords—the piece delves into existential themes of individualism and the pursuit of authenticity. Drawing inspiration from literary works such as Fyodor Dostoevsky\'s \'Notes from Underground,\' the artwork resonates with echoes of the underground man\'s struggle for autonomy amidst societal constraints, subtly urging viewers to confront their own paths with courage and resilience.',
+        description: '"Subterranean Voyage" intricately weaves layers of self-portraits and evocative text within its digital collage, inviting viewers to embark on a journey of introspection and self-discovery. Through the use of symbolic imagery—a black-out angle bearing a sword, a gothic staircase guarded by Cerberus, and a skeleton adorned with impaled swords—the piece delves into existential themes of individualism and the pursuit of authenticity. Drawing inspiration from literary works such as Fyodor Dostoevsky\'s \'Notes from Underground,\' the artwork resonates with echoes of the underground man\'s struggle for autonomy amidst societal constraints, subtly urging viewers to confront their own paths with courage and resilience.',
       },
 
       {
@@ -416,14 +416,14 @@ const products = [
 
       {
         id: 36,
-        name: 'Untitled',
+        name: 'Alone with nothing but faith',
         date: 2022,
         collection: '',
         price: 15000,
         image: ['/images/mene.jpg'],
         media: 'Graphite and collage on paper, digital collage edit',
         dimensions: '18x24in',
-        description: '',
+        description: '"Alone with nothing but faith" delves into the depths of surrealism, presenting a haunting self-portrait laden with symbolism. Through graphite, collage, and digital manipulation, the piece portrays the subject draped in a sheet, adorned with tattoos, clutching a cigarette and a cracked egg. Against the backdrop of a lighthouse marked with cryptic graffiti and a distorted American flag, a black dog observes from afar, while a grass maze leads to an ominous ocean horizon. This enigmatic composition invites viewers to contemplate themes of isolation, mortality, and the fragile interplay between faith and despair.',
       },
 
       {
@@ -519,7 +519,7 @@ const products = [
         image: ['/videos/opia.mp4','/images/opia-1.jpg', '/images/opia-2.JPG'],
         media: 'Digital edit',
         dimensions: '16x16in',
-        description: '',
+        description: '"OPIA!" is a captivating exploration of the enigmatic intensity inherent in human gaze, encapsulating a sense of both invasiveness and vulnerability within its bold composition.',
       },
 
       {
@@ -604,7 +604,7 @@ const products = [
         image: ['/images/false.jpg'],
         media: 'Graphite on paper',
         dimensions: '18x24in',
-        description: '',
+        description: '"I be so confused I ain\'t hard to find/ Prophets" delves into the notion of belief systems and influences. Through graphite on paper, it explores the concept of following \'prophets\'—not necessarily divine figures, but anything that exerts influence. It prompts viewers to contemplate their own \'prophets\' and the forces that shape their beliefs and actions.',
       },
 
       {
@@ -628,7 +628,7 @@ const products = [
         image: ['/images/docs.jpg'],
         media: 'Acrylic on canvas',
         dimensions: '18x24in',
-        description: '',
+        description: 'A still life of doc marten boots with a flower inside of a boot. ',
       },
 
       {
@@ -669,14 +669,14 @@ const products = [
 
       {
         id: 57,
-        name: 'Untitled',
+        name: 'Hedonistic Cynic',
         date: 2022,
         collection: 'Black Dog',
         price: 50000,
         image: ['/images/nightlife2.jpg'],
         media: 'Graphite on paper, digital edit',
         dimensions: '24x18in',
-        description: '',
+        description: 'A piece part of the “Black Dog” series using the motif of the black dog to illustrate the absurdity of the loyalty of suffering in life.',
       },
 
       {
@@ -722,9 +722,9 @@ const products = [
         collection: '',
         price: 17000,
         image: ['/images/abyss-1.JPG', '/images/abyss-2.JPG', '/images/abyss-3.JPG', '/images/abyss-4.JPG' ],
-        media: 'Digital edit',
+        media: 'Digital edit and photography',
         dimensions: '16x16in',
-        description: '',
+        description: '"Chrome Abyss" delves into the realm of cybernetic transformation through digital editing, presenting a futuristic self-portrait laden with symbolic text and imagery. With phrases like "Chrome Abyss" and "data leak," the piece navigates themes of self-discovery and the exploration of unknown territories within oneself. Through this fusion of human and machine, the artwork invites contemplation on the boundaries of identity and the journey towards self-understanding.',
       },
 
       {
@@ -796,7 +796,7 @@ const products = [
         image: ['/images/kangol.JPG', '/images/kangol-1.JPG' ],
         media: 'Wire, aluminum foil, and plaster cloth sculpture',
         dimensions: '12x12in',
-        description: '',
+        description: 'A sculpture that pay homage to Kangols for its large impact and usage in black culture.',
       },
 
       {
@@ -808,7 +808,7 @@ const products = [
         image: ['/images/lighter.JPG' ],
         media: 'Photography and digital print',
         dimensions: '24x19in',
-        description: '',
+        description: '"The Smoker\’s Delight, 2020" captures the passage of time through a series of images depicting a Bic lighter\'s diminishing flame. Through photography, I explore the concept of time as a linear progression, with each frame frozen in a moment yet collectively forming the continuum of time. This piece invites viewers to contemplate the resilience of the eternal flame against the backdrop of temporal transience.',
       },
 
       {
@@ -820,7 +820,7 @@ const products = [
         image: ['/images/lips.jpg' ],
         media: 'Oil on panel',
         dimensions: '14x14in',
-        description: 'An observational piece.',
+        description: 'An observational oil painting of my mouth.',
       },
 
       {
@@ -897,7 +897,7 @@ const products = [
 
       {
         id: 76,
-        name: '"High" Fashion',
+        name: 'High Fashion?',
         date: 2019,
         collection: '',
         price: 250000,
@@ -976,7 +976,7 @@ const products = [
         image: ['/images/etre.JPG'],
         media: 'Photography and digital editing',
         dimensions: '',
-        description: '',
+        description: '"To be like them" captures a visceral moment in a staged scene, prompting reflection on the perils of sacrificing oneself for societal ideals. Through photography and digital editing, the piece delves into the complexities of individual identity and societal pressures. Please note that this scene is entirely fabricated, serving as a cautionary tale rather than a depiction of reality.',
       },
 
       {
@@ -1012,7 +1012,7 @@ const products = [
         image: ['/images/au-1.jpg', '/images/au-2.jpg'],
         media: 'Photography',
         dimensions: '',
-        description: '',
+        description: '"Au Revoir" encapsulates my farewell to New York through a series of hazy, moving-camera photographs, reflecting the blurred lines of memory. By desaturating colors, I evoke the somber emotions of departure, highlighting the fleeting nature of time and the ever-changing concept of home. Through this work, I explore the complex emotions of moving on and the realization that home is ultimately a reflection of personal experience.',
       },
 
       {
