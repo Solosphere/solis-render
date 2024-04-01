@@ -1020,7 +1020,7 @@ const products = [
         date: 2019,
         collection: '',
         price: 250000,
-        image: ['/images/au-1.jpg', '/images/au-2.jpg'],
+        image: ['/images/au-1.jpg','/images/au-7.jpg', '/images/au-2.jpg', '/images/au-3.jpg', '/images/au-4.jpg','/images/au-6.jpg', '/images/au-8.jpg' ],
         media: 'Photography',
         dimensions: '',
         description: '"Au Revoir" encapsulates my farewell to New York through a series of hazy, moving-camera photographs, reflecting the blurred lines of memory. By desaturating colors, I evoke the somber emotions of departure, highlighting the fleeting nature of time and the ever-changing concept of home. Through this work, I explore the complex emotions of moving on and the realization that home is ultimately a reflection of personal experience.',
@@ -1029,7 +1029,7 @@ const products = [
       {
         id: 87,
         name: 'COZI',
-        date: 2019,
+        date: 2018,
         collection: '',
         price: 250000,
         image: ['/images/cozi-1.JPG', '/images/cozi-2.JPG', '/images/cozi-3.JPG'],
