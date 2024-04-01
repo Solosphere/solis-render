@@ -7,14 +7,17 @@ import SortSection from './SortSection';
 import Loading from './Loading';
 import products from '../productsData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
+import { faCircleChevronRight, faCircleChevronLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'; 
 
 const itemsPerPage = 16;
-const maxButtonsToShow = 3;
+const maxButtonsToShow = 4;
+
+console.log("Product", products.length);
 
 const GalleryList = () => {
 
   const navigate = useNavigate();
+  
 
   const [filters, setFilters] = useState({
     date: 'all',
@@ -26,7 +29,15 @@ const GalleryList = () => {
   const [showSort, setShowSort] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true); // Loading state
-  
+  const [showViolentContent, setShowViolentContent] = useState(false); 
+  const [loadingDueToViewerDiscretion, setLoadingDueToViewerDiscretion] = useState(false);
+
+
+  const handleViewerDiscretionToggle = () => {
+    setShowViolentContent((prev) => !prev); // Toggle the state
+    setLoadingDueToViewerDiscretion(true);
+  };
+
   const sortOptions = [
     { label: 'Name', value: 'name' },
     { label: 'Date', value: 'date' },
@@ -104,13 +115,15 @@ const GalleryList = () => {
   
    useEffect(() => {
      setLoading(true); // Set loading to true when component mounts or when filters, sorting, or search term change
+     setLoadingDueToViewerDiscretion(false);
      window.scrollTo(0, 0);
+
      // Simulate an API call or any asynchronous operation
      setTimeout(() => {
        setLoading(false); // Set loading to false once the operation is complete
        
      }, 2000); // Adjust the timeout as needed
-   }, [currentPage, filters, sortBy, searchTerm]);
+   }, [currentPage, filters, sortBy, searchTerm, showViolentContent]);
 
   const totalPages = Math.ceil(applyFiltersAndSort().length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -159,12 +172,15 @@ const GalleryList = () => {
     <div className="gallery-list-container">
       <div className="filter-search-row">
         <div className="gallery-search">
-        <h1 className="gallery-title"> ARCHIVE</h1>
+        <h1 className="gallery-title">ARCHIVE</h1>
         <SearchBar searchTerm={searchTerm} setSearchTerm={handleSearchChange} className="gallery-search-bar" />
         </div>
         <div className="filter-and-sort-row">
         <GalleryFilterSection filters={filters} setFilters={setFilters} showFilters={showFilters} setShowFilters={setShowFilters} handleFilterChange={handleFilterChange} />
         <SortSection sortOptions={sortOptions} sortBy={sortBy} setSortBy={setSortBy} showSort={showSort} setShowSort={setShowSort} handleSortChange={handleSortChange} />
+        <button onClick={handleViewerDiscretionToggle} className="viewer-discretion-button">
+    {showViolentContent ? <FontAwesomeIcon icon={faEye} /> : <FontAwesomeIcon icon={faEyeSlash} />}
+  </button>
       </div>
       </div>
 
@@ -174,7 +190,7 @@ const GalleryList = () => {
         <>
           <div className="gallery-list">
             {currentItems.map((product) => (
-              <GalleryCard key={product.id} product={product} currentPage={currentPage} />
+              <GalleryCard key={product.id} product={product} currentPage={currentPage} showViolentContent={showViolentContent} />
             ))}
           </div>
 
