@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
 
 export default function HomePage() {
-const [currentImageIndex, setCurrentImageIndex ] = useState(0)
+const [currentImageIndex, setCurrentImageIndex ] = useState(0);
 const images = ['kirin.jpg', 'skeleton.jpg', 'angel.JPG', 'prophet.jpg', ];
 const location = useLocation();
 

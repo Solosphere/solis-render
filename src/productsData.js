@@ -1122,6 +1122,18 @@ const products = [
         description: '',
       },
 
+      {
+        id: 94,
+        name: 'Theoria mutantium',
+        date: 2024,
+        collection: '',
+        price: 250000,
+        image: ['/images/mutant-1.JPG','/images/mutant-2.JPG', '/images/mutant-3.JPG', '/images/mutant-4.jpg'],
+        media: 'Photography and digital edit',
+        dimensions: '',
+        description: '',
+      },
+
   ];
   
   export default products;

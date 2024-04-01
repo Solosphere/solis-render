@@ -169,7 +169,7 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-title {
   justify-content: start;
-  font-size: 6.5em;
+  font-size: 17vh;
   margin: 0;
 }
 
@@ -228,6 +228,7 @@ video::-webkit-media-controls-play-button {
   max-width: 530px;
   height: auto;
   border-radius: 8px; 
+ 
 }
 
 .featured-art-icon-row{
@@ -897,6 +898,7 @@ select {
   background-color: black;
   border-radius: 8px;
   padding: 2%;
+  text-decoration: none !important;
 
 }
 
@@ -913,11 +915,14 @@ select {
   color:white;
   font-weight:bold;
   text-align:center;
-  text-decoration: none;
   margin: 0 5%;
   margin-bottom: 5%;
-  
 }
+
+.link-no-underline {
+  text-decoration: none;
+}
+
 
 .gallery-image,
 .gallery-video {
@@ -1233,9 +1238,6 @@ select {
     flex-direction: column;
   }
 
-  .landingpage-title{
-    font-size: 12vh;
-  }
   
   .featured-art-content {
     border-top: 2px white solid;

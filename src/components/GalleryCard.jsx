@@ -58,7 +58,7 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
 
   return (
     <div className="gallery-card">
-      <Link to={`${product.id}?page=${currentPage}`}>
+      <Link to={`${product.id}?page=${currentPage}`} className="link-no-underline">
         {showViolentContent || !product.hasViolence ? (
           hasVideo ? (
             <video className="gallery-video" autoPlay width="auto" loop muted={!isHovered} onMouseOver={handleHover} onMouseLeave={handleMouseLeave} playsInline controls={false}>
@@ -77,7 +77,7 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
             <source src='/videos/toxic.mp4' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-    </div>
+          </div>
            <p>Viewer's discretion advised. If you would like to view this piece, click the button with the eye with the slash.</p>
           </div>
         )}
