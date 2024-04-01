@@ -1032,7 +1032,7 @@ const products = [
         date: 2018,
         collection: '',
         price: 250000,
-        image: ['/images/cozi-1.JPG', '/images/cozi-2.JPG', '/images/cozi-3.JPG'],
+        image: ['/images/cozi-1.JPG', '/images/cozi-2.JPG', '/images/cozi-4.JPG', '/images/cozi-3.JPG', '/images/cozi-5.jpg'],
         media: 'Digital art',
         dimensions: '',
         description: '',
@@ -1134,6 +1134,32 @@ const products = [
         description: '',
       },
 
+      {
+        id: 95,
+        name: 'Early works',
+        date: 2018,
+        collection: '',
+        price: 250000,
+        image: ['/images/oldie-1.JPG'],
+        media: 'Digital art',
+        dimensions: '',
+        description: '',
+      },
+
+      {
+        id: 96,
+        name: 'Early works',
+        date: 2018,
+        collection: '',
+        price: 250000,
+        image: ['/images/oldie-2.JPG'],
+        media: 'Digital art',
+        dimensions: '',
+        description: '',
+        hasViolence: true,
+      },
+
+      
   ];
   
   export default products;
