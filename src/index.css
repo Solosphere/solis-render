@@ -765,7 +765,7 @@ video::-webkit-media-controls-play-button {
 .gallery-title {
   display:flex;
   align-items: center;
-  font-size: 3em;
+  font-size: 2.5em;
   height: 70px;
   color: white;
   background-color: black;
@@ -798,6 +798,7 @@ video::-webkit-media-controls-play-button {
   flex-direction: row;
   width: 30%;
   justify-content: start;
+  justify-content: space-evenly;
   padding-right: 0px;
 }
 
@@ -837,7 +838,6 @@ video::-webkit-media-controls-play-button {
 }
 
 .sort-button {
-  margin-left: 10%;
   background-color: black;
   font-size: 3vh;
   color: #ffffff;
@@ -848,6 +848,7 @@ video::-webkit-media-controls-play-button {
 
 .sort-options {
   max-width: 100%;
+  width: 100%;
   margin-left: 10%;
   margin-right: 5%;
   padding-top: 5px;
@@ -867,6 +868,8 @@ select {
   margin-left: 0px;
 } 
 
+
+
 /* Gallery.css */
 .gallery-list-container{
   max-width: 100%;
@@ -883,6 +886,38 @@ select {
 .gallery-card {
   width: 100%;
   margin-bottom: 2%;
+  display: block;
+  break-inside: avoid-column;
+}
+
+.restricted-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  border-radius: 8px;
+  padding: 2%;
+
+}
+
+
+.warning-image{
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  object-fit: cover;
+  margin: auto;
+  
+}
+
+.restricted-content-container p{
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  text-decoration: none;
+  margin: 0 5%;
+  margin-bottom: 5%;
+  
 }
 
 .gallery-image,
@@ -1066,9 +1101,14 @@ select {
 /* Loading Css*/
 .loading{
   display: flex;
-  height: 650px;
   justify-content: center;
-  border-radius: 100px;
+  align-items: center;
+  margin: 2% 30%;
+  width: 40%;
+}
+
+.loading-image{
+  border-radius: 8px;
 }
 
 
@@ -2287,9 +2327,6 @@ select {
     justify-content: space-between;
   }
   
-  
-
-
   .image-with-description {
     position: relative;
     width: 100%; 
@@ -2620,6 +2657,10 @@ select {
     margin-left: 1%;
     font-size: 1.7vh;
   } 
+
+  .viewer-discretion-button{
+    margin-left: 2.5%;
+  }
   
   /* Gallery.css */
 .gallery-list-container{
@@ -2813,6 +2854,15 @@ select {
   
   .thumbnail:hover {
     border-color: #F05941; 
+  }
+
+  /*Loading css*/
+  .loading{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 25%;
   }
   
 }
@@ -3766,6 +3816,10 @@ select {
       padding-top: 2%;
     }
 
+    .viewer-discretion-button{
+      margin-left: 3%;
+    }
+
   
   /* Gallery.css */
     .gallery-list-container{
@@ -3968,9 +4022,10 @@ select {
   /* Loading Css*/
   .loading{
     display: flex;
-    height: 650px;
+    width: 90%;
     justify-content: center;
-    border-radius: 100px;
+    align-items: center;
+    margin: 35% 5%;
   }
   
   
@@ -5028,6 +5083,10 @@ select {
     label:nth-child(2) {
       padding-top: 2%;
     }
+
+    .viewer-discretion-button{
+      margin-left: 3%;
+    }
     
   
   /* Gallery.css */
@@ -5233,9 +5292,10 @@ select {
   /* Loading Css*/
   .loading{
     display: flex;
-    height: 650px;
+    width: 80%;
     justify-content: center;
     border-radius: 100px;
+    margin: 20% 10%;
   }
   
   

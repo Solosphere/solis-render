@@ -9,6 +9,7 @@ const products = [
       media: 'Graphite and marker on paper, digital collage',
       dimensions: "3x3ft",
       description: 'A piece part of the “Black Dog” series using the motif of the black dog to illustrate the absurdity of the loyalty of suffering in life.',
+      hasViolence: true,
     },
 
     {
@@ -21,6 +22,7 @@ const products = [
       media: 'Graphite, acrylic, marker on paper, digital collage',
       dimensions: "24x18in",
       description: 'This piece portrays a dichotomy of selves, with the elder positioned in a taxi\'s front seat and the younger self in the back, illustrating the poignant tension between mortal physicality and intellectual aspirations. The older self, a symbol of the earthly constraints, confronts the youthful self wielding a silencer, embodying the ceaseless pursuit of transcending worldly limits. As the aged visage signifies the inherent boundaries of our existence, the younger self becomes a symbol of the relentless quest for enlightenment, showcasing the perpetual struggle to overcome the limitations of the physical realm and embrace the boundless realm of intellectual exploration.',
+      
     },
     
     {
@@ -33,6 +35,7 @@ const products = [
         media: '3D model sculpture, PIR motion sensor, DFPlayer, SD card, jumper wires, arduino uno',
         dimensions: "9x10x4in",
         description: '"SAP(FORTHESOUL)" is a multimedia art piece conceived during my sophomore year at Parsons School of Design. Utilizing AutoCAD, I crafted a 3D sculpture inspired by African plaques. The sculpture incorporates Arduino technology, employing a PIR motion sensor and DFPlayer with an SD card, to dynamically generate speeches exploring existential and absurdist themes. The spoken words, a compilation of writings by Jean-Paul Sartre, Albert Camus, and my own alterations, are transformed into speech through text-to-speech software, creating an immersive and thought-provoking experience within the 9x10x4in dimensions of the artwork.',
+        
       },
 
       {
@@ -45,7 +48,9 @@ const products = [
         media: 'Oil on canvas, digital collage',
         dimensions: '2x3ft',
         description: '“The Paradox of the Absurdist” is a collage painting regarding absurdism; the belief that human exist in a purposeless, chaotic world. With this knowledge one has the choice to rebel or embrace what life gives us.',
+        hasViolence: false,
       },
+
       {
         id: 5,
         name: 'Fortis Fortuna Adiuvat',
@@ -56,6 +61,7 @@ const products = [
         media: 'Graphite on paper, digital collage',
         dimensions: '30x40in',
         description: 'A piece part of the “Black Dog” series using the motif of the black dog to illustrate the absurdity of the loyalty of suffering in life.',
+        hasViolence: false,
       },
 
       {
@@ -68,6 +74,7 @@ const products = [
         media:'Graphic, charcoal and conte crayon on paper',
         dimensions: "18x24in",
         description: 'A custom drawing made in traditional Japanese tattoo style that pays tribute to the Japanese mythological creature, the Kirin.',
+      
       },
 
       {
@@ -248,6 +255,8 @@ const products = [
         media: 'photography and digital print',
         dimensions: '8.5x11in',
         description: 'In "Anti," created in 2019 through the medium of photography and digital print with dimensions of 8.5x11 inches, I captured a poignant narrative surrounding substance abuse. The spilled pills serve as a visual metaphor for the scattered consequences of addiction, while the overlaid image of a bloody sink intensifies the raw and visceral impact, addressing the physical toll and personal struggle associated with substance misuse. This piece prompts reflection on the destructive nature of substance abuse and fosters a dialogue on the urgent need for empathy and support in combating this pervasive issue. Please note that this scene is entirely fabricated, serving as a cautionary tale rather than a depiction of reality.',
+        hasViolence: true,
+      
       },
 
       {
@@ -378,6 +387,7 @@ const products = [
         media: 'Photography and digital collage edit',
         dimensions: '36x36in',
         description: '',
+        hasViolence: true,
       },
 
       {
@@ -977,6 +987,7 @@ const products = [
         media: 'Photography and digital editing',
         dimensions: '',
         description: '"To be like them" captures a visceral moment in a staged scene, prompting reflection on the perils of sacrificing oneself for societal ideals. Through photography and digital editing, the piece delves into the complexities of individual identity and societal pressures. Please note that this scene is entirely fabricated, serving as a cautionary tale rather than a depiction of reality.',
+        hasViolence: true,
       },
 
       {
