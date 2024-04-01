@@ -1232,6 +1232,10 @@ select {
     text-align: center;
     flex-direction: column;
   }
+
+  .landingpage-title{
+    font-size: 12vh;
+  }
   
   .featured-art-content {
     border-top: 2px white solid;
@@ -1606,7 +1610,8 @@ select {
 
 .about-row-3 {
   border-top: 2px white solid;
-  padding: 0 2%;
+  padding: 0 1%;
+  padding-right: 2%;
 }
 
 
@@ -1620,13 +1625,14 @@ select {
 .upcoming-projects p {
   font-size: 18px;
   margin: 0;
-  margin-left: 2%;
-  padding-left: 1%;
+  padding-left: 4%;
 }
 
 .upcoming-projects-text-section h2{
   font-size: 2em;
-  margin-left: 2%;
+  margin-left: 0%;
+  margin-right: 3%;
+  padding: 0;
 }
 
 .chrome-text{
@@ -3355,7 +3361,7 @@ select {
   .skills-header h2 {
     font-size: 3.5vh;
     text-align: center;
-    margin: 0
+    margin: 0;
   }
   
   .skills-header p{
