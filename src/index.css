@@ -4660,12 +4660,12 @@ select {
   
   .skill-category p {
     flex: 1 0 auto;
-    font-size: 2vh;
+    font-size: 1.85vh;
     margin: .5%;
     background-color: black;
     color: white;
     text-align: center;
-    padding:  2% 3%;
+    padding:  2%;
     border-radius: 8px;
   }
   
