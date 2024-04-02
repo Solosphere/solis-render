@@ -169,7 +169,7 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-title {
   justify-content: start;
-  font-size: 17vh;
+  font-size: 15vh;
   margin: 0;
 }
 
@@ -937,12 +937,7 @@ select {
   text-decoration: none;
 }
 
-.image-indicator {
-  position:fixed;
-  top: 30px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
-  z-index: 1;
-}
+
 
 .gallery-image,
 .gallery-video {
@@ -951,9 +946,22 @@ select {
   transition: transform 0.6s ease-in-out;
 }
 
+.image-icon {
+  position:relative;
+  background-color: #F05941;
+  padding: 1%;
+  border-radius: 5px;
+  font-size: 3vh;
+  top: 35px; /* Adjust as needed */
+  left: 90%; /* Adjust as needed */
+  z-index: 1;
+  color:white;
+}
+
 .gallery-image:hover, 
 .gallery-video:hover{
   border:2px #F05941 solid;
+  
 }
 
 .pagination {
