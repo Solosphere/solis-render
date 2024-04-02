@@ -50,7 +50,7 @@
 
 // export default GalleryCard;
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
@@ -61,9 +61,20 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
   const page = searchParams.get('page');
   const hasVideo = product.image.some((item) => item.includes('.mp4'));
   const [isHovered, setIsHovered] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+ 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === product.image.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 2000); // Change the duration here for the image transition
+    return () => clearInterval(interval);
+  }, [product.image.length]);
 
   const handleHover = () => {
     setIsHovered(true);
+     
   };
 
   const handleMouseLeave = () => {
@@ -75,9 +86,6 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
       <Link to={`${product.id}?page=${currentPage}`} className="link-no-underline">
         {showViolentContent || !product.hasViolence ? (
           <>
-            {/* {product.image.length > 1 && (
-              <FontAwesomeIcon icon={faImages} className="image-icon" />
-            )} */}
             {hasVideo ? (
               <video
                 className="gallery-video"
@@ -94,7 +102,7 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img src={product.image[0]} alt={product.name} className="gallery-image" />
+              <img src={product.image[currentImageIndex]} alt={product.name} className="gallery-image" />
             )}
           </>
         ) : (

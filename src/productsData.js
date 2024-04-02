@@ -1087,7 +1087,7 @@ const products = [
       },
 
       {
-        id: 91,
+        id: 92,
         name: 'Untitled',
         date: 2019,
         collection: '',
@@ -1099,7 +1099,7 @@ const products = [
       },
 
       {
-        id: 92,
+        id: 93,
         name: 'Tattoos on fake skin',
         date: 2024,
         collection: '',
@@ -1111,7 +1111,7 @@ const products = [
       },
 
       {
-        id: 93,
+        id: 94,
         name: 'Flash Designs for Tattoos',
         date: 2024,
         collection: '',
@@ -1123,7 +1123,7 @@ const products = [
       },
 
       {
-        id: 94,
+        id: 95,
         name: 'Theoria mutantium',
         date: 2024,
         collection: '',
@@ -1135,7 +1135,7 @@ const products = [
       },
 
       {
-        id: 95,
+        id: 96,
         name: 'Early works',
         date: 2018,
         collection: '',
@@ -1147,7 +1147,7 @@ const products = [
       },
 
       {
-        id: 96,
+        id: 97,
         name: 'Early works',
         date: 2018,
         collection: '',
@@ -1160,7 +1160,7 @@ const products = [
       },
 
       {
-        id: 97,
+        id: 98,
         name: 'Motion Heat Cutter/ Gluttony',
         date: 2021,
         collection: '',

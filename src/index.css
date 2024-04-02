@@ -943,7 +943,7 @@ select {
 .gallery-video {
   max-width: 100%;
   border-radius: 8px;
-  transition: transform 0.6s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .image-icon {
@@ -961,6 +961,7 @@ select {
 .gallery-image:hover, 
 .gallery-video:hover{
   border:2px #F05941 solid;
+  opacity: .7;
   
 }
 
