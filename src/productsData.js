@@ -170,7 +170,7 @@ const products = [
         image: ['/images/cowboy.jpg'],
         media: 'Oil, acrylic, collage, charcoal, and fabric on canvas',
         dimensions: "18x24in",
-        description: 'The multimedia artwork portrays a moment between myself as a toddler and my father, drawing parallels between Western Americana Cowboy culture and my father\'s characteristics. Through the inclusion of black figures and religious symbolism, such as the rope acting as a halo, the piece reflects the empowerment and values instilled by my father within a cultural context often overlooked. Despite emotional absence, the subtle expressions of love through color and composition underscore the enduring connections and unique expressions of affection within the piece.',
+        description: 'The multimedia artwork portrays a moment between myself as a toddler and my father, drawing parallels between Western Americana Cowboy culture and my father\'s characteristics. Through the inclusion of black figures and religious symbolism, such as the rope acting as a halo, the piece reflects the empowerment and values instilled by my father within a cultural context often overlooked.',
       },
 
       {
