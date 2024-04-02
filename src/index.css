@@ -961,7 +961,6 @@ select {
 .gallery-image:hover, 
 .gallery-video:hover{
   border:2px #F05941 solid;
-  opacity: .7;
   
 }
 

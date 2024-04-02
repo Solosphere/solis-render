@@ -52,8 +52,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImages } from '@fortawesome/free-solid-svg-icons';
+
 
 const GalleryCard = ({ product, currentPage, showViolentContent }) => {
   const location = useLocation();
@@ -68,7 +67,7 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === product.image.length - 1 ? 0 : prevIndex + 1
       );
-    }, 2000); // Change the duration here for the image transition
+    }, 5000); // Change the duration here for the image transition
     return () => clearInterval(interval);
   }, [product.image.length]);
 
