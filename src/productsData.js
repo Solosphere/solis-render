@@ -48,7 +48,7 @@ const products = [
         media: 'Oil on canvas, digital collage',
         dimensions: '2x3ft',
         description: '“The Paradox of the Absurdist” is a collage painting regarding absurdism; the belief that human exist in a purposeless, chaotic world. With this knowledge one has the choice to rebel or embrace what life gives us.',
-        hasViolence: false,
+        hasViolence: true,
       },
 
       {
@@ -167,7 +167,7 @@ const products = [
         date: 2020,
         collection: '',
         price: 15000,
-        image: ['/images/godspeed.JPG'],
+        image: ['/images/cowboy.jpg'],
         media: 'Oil, acrylic, collage, charcoal, and fabric on canvas',
         dimensions: "18x24in",
         description: 'The multimedia artwork portrays a moment between myself as a toddler and my father, drawing parallels between Western Americana Cowboy culture and my father\'s characteristics. Through the inclusion of black figures and religious symbolism, such as the rope acting as a halo, the piece reflects the empowerment and values instilled by my father within a cultural context often overlooked. Despite emotional absence, the subtle expressions of love through color and composition underscore the enduring connections and unique expressions of affection within the piece.',
@@ -1157,6 +1157,18 @@ const products = [
         dimensions: '',
         description: '',
         hasViolence: true,
+      },
+
+      {
+        id: 97,
+        name: 'Motion Heat Cutter/ Gluttony',
+        date: 2021,
+        collection: '',
+        price: 250000,
+        image: ['/images/heatcutter-2.jpg', '/images/heatcutter-1.jpg', '/images/heatcutter-4.jpg', '/images/heatcutter-3.jpg'],
+        media: '3D model sculpture, 5V relay, nichrome wire, 9V battery, arduino board, tilt ball switch, foam',
+        dimensions: '',
+        description: '"Motion Heat Cutter" is a 3D model sculpture integrating motion detection to activate a nichrome wire that burns at 400 degrees fahrenheit through a tilt ball switch. This interactive tool, allowing users to rotate it 90 degrees, was crafted with the purpose of sculpting a foam representation critiquing the gluttony of the TransAtlantic Slave trade and the exploitation of black labor in sugar production. By juxtaposing foam with sugar as materials, the piece unveils the hidden exploitative nature underlying the commodification of sugar, urging contemplation on the complexities of industrialization and exploitation within our societal structures.',
       },
 
       
