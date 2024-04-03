@@ -269,6 +269,7 @@ const products = [
         media: 'digital print',
         dimensions: '8.5x11in',
         description: '',
+        hasViolence: true,
       },
 
       {

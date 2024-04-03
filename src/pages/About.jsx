@@ -139,7 +139,7 @@ const [loading, setLoading] = useState(true);
       <section className="about-row-3">
       <section className="upcoming-projects">
         <div className="upcoming-projects-text-section">
-        <h2>Upcoming Projects</h2>
+        <h2>Works in Progress</h2>
         <p>*Not limited to the showcased</p>
         </div>
         <div className="upcoming-projects-column-2">
