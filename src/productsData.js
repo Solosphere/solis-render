@@ -1137,7 +1137,7 @@ const products = [
 
       {
         id: 96,
-        name: 'Early works',
+        name: 'Nauseous heart',
         date: 2018,
         collection: '',
         price: 250000,
@@ -1149,7 +1149,7 @@ const products = [
 
       {
         id: 97,
-        name: 'Early works',
+        name: 'Untitled',
         date: 2018,
         collection: '',
         price: 250000,
