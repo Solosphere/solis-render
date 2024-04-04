@@ -1149,7 +1149,7 @@ const products = [
 
       {
         id: 97,
-        name: 'Untitled',
+        name: 'Instant gratification',
         date: 2018,
         collection: '',
         price: 250000,
